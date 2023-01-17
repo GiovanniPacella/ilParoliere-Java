@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("MIMMO");
+        int i=0;
+        while (i<100) {
+            System.out.println("MIMMO");
+            i++;
+        }
     }
 }
