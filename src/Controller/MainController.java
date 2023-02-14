@@ -1,6 +1,8 @@
 package Controller;
 
 import View.PROVA;
+
+import javax.swing.*;
 import java.lang.Math;
 public class MainController {
     private int nRigheColonne=5;
@@ -24,5 +26,6 @@ public class MainController {
         PROVA p=new PROVA();
         p.setContentPane(p.getPanelMain());
         p.setVisible(true);
+        p.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
