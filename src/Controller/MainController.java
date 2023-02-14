@@ -1,8 +1,8 @@
 package Controller;
 
 public class MainController {
-    public static void main(String[] args) {
-        System.out.println("CIAO" + "12345");
+    private char Board[][] = new char[5][5];
 
+    public static void main(String[] args) {
     }
 }
