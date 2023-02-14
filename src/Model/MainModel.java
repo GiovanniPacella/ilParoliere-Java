@@ -7,6 +7,7 @@ public class MainModel {
 
     public void creaBoard()
     {
+
         for(int i=0; i<nRigheColonne; i++)
         {
             for(int j=0; j<nRigheColonne; j++)
