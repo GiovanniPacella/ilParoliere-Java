@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdcf3801-7b0e-41c4-bb39-ae0d50eec542" name="Changes" comment="COMMprova">
+    <list default="true" id="bdcf3801-7b0e-41c4-bb39-ae0d50eec542" name="Changes" comment="COMMIT Main appo'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MainModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MainModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/PROVA.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PROVA.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/PROVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PROVA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a063485e-1f93-4ed0-9ceb-4fea722a61f3" />
+        <option name="url" value="https://github.com/GiovanniPacella/ilParoliere.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,23 +48,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller.MainController" />
+      <module name="ilParoliere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainController" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +98,8 @@
       <workItem from="1673952066422" duration="399000" />
       <workItem from="1673952510477" duration="622000" />
       <workItem from="1674555002801" duration="198000" />
-      <workItem from="1676367456763" duration="2483000" />
+      <workItem from="1676367456763" duration="5858000" />
+      <workItem from="1678183074076" duration="2012000" />
     </task>
     <task id="LOCAL-00001" summary="COMM">
       <created>1676367525522</created>
@@ -79,7 +115,70 @@
       <option name="project" value="LOCAL" />
       <updated>1676367698055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="COMMprova">
+      <created>1676369991545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676369991545</updated>
+    </task>
+    <task id="LOCAL-00004" summary="COMMprova">
+      <created>1676370137579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370137579</updated>
+    </task>
+    <task id="LOCAL-00005" summary="COMMITPROVA Form e .Java">
+      <created>1676370631432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370631432</updated>
+    </task>
+    <task id="LOCAL-00006" summary="COMMITPROVA Form e .Java senza main view">
+      <created>1676370918983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676370918983</updated>
+    </task>
+    <task id="LOCAL-00007" summary="COMMITPagina visibile">
+      <created>1676371241999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371241999</updated>
+    </task>
+    <task id="LOCAL-00008" summary="COMMITPagina visibile con chiusura">
+      <created>1676371309215</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371309215</updated>
+    </task>
+    <task id="LOCAL-00009" summary="COMMIT Main Delited">
+      <created>1676371423397</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371423397</updated>
+    </task>
+    <task id="LOCAL-00010" summary="COMMIT Main appo'">
+      <created>1676371613692</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371613692</updated>
+    </task>
+    <task id="LOCAL-00011" summary="COMMIT Main appo'">
+      <created>1676371653653</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371653653</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +210,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="COMM" />
     <MESSAGE value="COMMprova" />
-    <option name="LAST_COMMIT_MESSAGE" value="COMMprova" />
+    <MESSAGE value="COMMITPROVA" />
+    <MESSAGE value="COMMITPROVA Form e .Java" />
+    <MESSAGE value="COMMITPROVA Form e .Java senza main view" />
+    <MESSAGE value="COMMITPagina visibile" />
+    <MESSAGE value="COMMITPagina visibile con chiusura" />
+    <MESSAGE value="COMMIT Main Delited" />
+    <MESSAGE value="COMMIT Main appo'" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMIT Main appo'" />
   </component>
 </project>
