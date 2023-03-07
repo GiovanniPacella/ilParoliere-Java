@@ -1,9 +1,10 @@
-package Model;
 
+package Model;
 public class MainModel {
     private int nRigheColonne=5;
     private char lettere[]= {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
     private char Board[][] = new char[nRigheColonne][nRigheColonne];
+    private String parolaTrovata;
 
     public void creaBoard()
     {
@@ -16,6 +17,19 @@ public class MainModel {
                 Board[i][j]=lettere[nCasuale];
             }
         }
-        return;
+    }
+
+
+    public boolean isCarattereAmmesso(int xPrec, int yPrec){ //Le coordinate di riferimento sono quelle del carattere precedentemente premuto
+        return true;
+    }
+
+
+    public void aggiungiCarattereParola(char x){
+        this.parolaTrovata+=x;
+    }
+
+    public boolean trovaParola(String x){
+        return(x==this.parolaTrovata);
     }
 }
