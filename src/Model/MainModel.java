@@ -52,4 +52,8 @@ public class MainModel {
     public void setParolaTrovata(String parolaTrovata) {
         this.parolaTrovata = parolaTrovata;
     }
+
+    public char[][] getBoard(){
+        return this.Board;
+    }
 }
