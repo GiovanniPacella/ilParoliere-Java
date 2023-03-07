@@ -6,6 +6,10 @@ public class MainModel {
     private char Board[][] = new char[nRigheColonne][nRigheColonne];
     private String parolaTrovata;
 
+    private int [][] posizioniCaratteri = new int [25][2];
+
+
+
     public void creaBoard()
     {
 
@@ -20,16 +24,19 @@ public class MainModel {
     }
 
 
-    public boolean isCarattereAmmesso(int xPrec, int yPrec){ //Le coordinate di riferimento sono quelle del carattere precedentemente premuto
-        return true;
-    }
-
-
     public void aggiungiCarattereParola(char x){
         this.parolaTrovata+=x;
     }
 
     public boolean trovaParola(String x){
-        return(x==this.parolaTrovata);
+        if(x==this.parolaTrovata){
+
+        }
+        return false;
+
+    }
+
+    public void setParolaTrovata(String parolaTrovata) {
+        this.parolaTrovata = parolaTrovata;
     }
 }
