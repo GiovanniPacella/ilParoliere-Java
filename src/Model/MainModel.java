@@ -25,6 +25,17 @@ public class MainModel {
         }
     }
 
+    public void stampaBoard(){
+        for(int i=0; i<nRigheColonne; i++)
+        {
+            for(int j=0; j<nRigheColonne; j++)
+            {
+                System.out.print(this.Board[i][j]+" ");
+            }
+            System.out.println("");
+        }
+    }
+
 
     public void aggiungiCarattereParola(char x){
         this.parolaTrovata+=x;
