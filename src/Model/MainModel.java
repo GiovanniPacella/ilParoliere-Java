@@ -9,6 +9,8 @@ public class MainModel {
     private int [][] posizioniCaratteri = new int [25][2];
 
 
+    public MainModel(){}
+
 
     public void creaBoard()
     {
