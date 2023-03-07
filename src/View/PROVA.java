@@ -26,8 +26,14 @@ public class PROVA extends JFrame{
     }
 
     private JButton button1;
+    private JButton button2;
+    private JButton button3;
 
     public PROVA() {
 
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }

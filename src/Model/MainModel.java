@@ -1,5 +1,6 @@
 package Model;
 
+import java.lang.Math;
 public class MainModel {
     private int nRigheColonne=5;
     private char lettere[]= {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
