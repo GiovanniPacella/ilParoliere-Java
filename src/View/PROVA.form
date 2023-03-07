@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.PROVA">
-  <grid id="27dc6" binding="PanelMain" layout-manager="GridLayoutManager" row-count="9" column-count="41" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="PanelMain" layout-manager="GridLayoutManager" row-count="11" column-count="41" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="957" height="600"/>
@@ -16,27 +16,27 @@
     <children>
       <vspacer id="dcfe7">
         <constraints>
-          <grid row="0" column="1" row-span="8" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="9" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <vspacer id="cd579">
         <constraints>
-          <grid row="0" column="39" row-span="8" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="39" row-span="9" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <hspacer id="e1651">
         <constraints>
-          <grid row="0" column="40" row-span="8" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="40" row-span="9" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <hspacer id="3dc31">
         <constraints>
-          <grid row="0" column="0" row-span="8" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="9" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <component id="e038b" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="3" row-span="1" col-span="34" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="1" col-span="36" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1352152"/>
@@ -48,38 +48,219 @@
       </component>
       <component id="cab77" class="javax.swing.JButton" binding="button1" default-binding="true">
         <constraints>
-          <grid row="3" column="9" row-span="1" col-span="23" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="8" row-span="1" col-span="25" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-3357255"/>
+          <font name="Tw Cen MT" size="36" style="3"/>
           <foreground color="-1352152"/>
           <text value="Gioca"/>
         </properties>
       </component>
-      <hspacer id="29244">
-        <constraints>
-          <grid row="6" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
       <component id="d9993" class="javax.swing.JButton" binding="button2" default-binding="true">
         <constraints>
-          <grid row="6" column="9" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="8" row-span="1" col-span="10" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-3357255"/>
+          <font name="Tw Cen MT" size="36" style="3"/>
           <foreground color="-1352152"/>
           <text value="Button"/>
         </properties>
       </component>
       <component id="f6c69" class="javax.swing.JButton" binding="button3" default-binding="true">
         <constraints>
-          <grid row="6" column="23" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="7" column="23" row-span="1" col-span="10" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="80" height="30"/>
           </grid>
         </constraints>
         <properties>
+          <background color="-3357255"/>
+          <font name="Tw Cen MT" size="36" style="3"/>
+          <foreground color="-1352152"/>
           <text value="Button"/>
         </properties>
       </component>
+      <vspacer id="e0335">
+        <constraints>
+          <grid row="1" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8a356">
+        <constraints>
+          <grid row="2" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f5097">
+        <constraints>
+          <grid row="4" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="5b37">
+        <constraints>
+          <grid row="5" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="1c7c7">
+        <constraints>
+          <grid row="6" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ad033">
+        <constraints>
+          <grid row="8" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="b5ff1">
+        <constraints>
+          <grid row="10" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="74e40">
+        <constraints>
+          <grid row="7" column="20" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a9bcf">
+        <constraints>
+          <grid row="5" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="fcf2a">
+        <constraints>
+          <grid row="5" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="82a39">
+        <constraints>
+          <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e89a">
+        <constraints>
+          <grid row="6" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e1dd3">
+        <constraints>
+          <grid row="9" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3e87a">
+        <constraints>
+          <grid row="8" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="bb1a6">
+        <constraints>
+          <grid row="9" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="71a1a">
+        <constraints>
+          <grid row="10" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="489c4">
+        <constraints>
+          <grid row="6" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="73dce">
+        <constraints>
+          <grid row="4" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ebcc6">
+        <constraints>
+          <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a1d1e">
+        <constraints>
+          <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="9016c">
+        <constraints>
+          <grid row="1" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a4518">
+        <constraints>
+          <grid row="2" column="28" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="86a78">
+        <constraints>
+          <grid row="3" column="33" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a525b">
+        <constraints>
+          <grid row="3" column="34" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="da95b">
+        <constraints>
+          <grid row="3" column="35" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a9e30">
+        <constraints>
+          <grid row="3" column="36" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e6e6e">
+        <constraints>
+          <grid row="3" column="37" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="48a0f">
+        <constraints>
+          <grid row="3" column="38" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="6607c">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="5bc8d">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="92ad">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="ea66f">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="40f10">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="55d63">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="e3a9">
+        <constraints>
+          <grid row="8" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="46025">
+        <constraints>
+          <grid row="10" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
     </children>
   </grid>
 </form>
