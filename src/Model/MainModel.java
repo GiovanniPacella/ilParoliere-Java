@@ -43,10 +43,17 @@ public class MainModel {
 
     public boolean trovaParola(String x){
         if(x==this.parolaTrovata){
-
+            return true;
         }
         return false;
 
+    }
+
+    public boolean verificaCarattere(char x){
+        if((x+1)>nRigheColonne){
+            return true;
+        }
+        return false;
     }
 
     public void setParolaTrovata(String parolaTrovata) {
