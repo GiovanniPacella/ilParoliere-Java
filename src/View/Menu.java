@@ -2,9 +2,8 @@ package View;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ComponentAdapter;
 
-public class PROVA extends JFrame{
+public class Menu extends JFrame{
     private JRadioButton RadioButton;
 
     public JRadioButton getRadioButton() {
@@ -22,24 +21,24 @@ public class PROVA extends JFrame{
     }
 
     public JButton getButton1() {
-        return button1;
+        return bottoneGioca;
     }
 
     public JButton getButton2() {
-        return button2;
+        return bottoneExit;
     }
 
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
+    private JButton bottoneGioca;
+    private JButton bottoneExit;
+    private JButton bottoneClassifica;
 
-    public PROVA() {
+    public Menu() {
         setLocationRelativeTo(null);
         pack();
         PanelMain.setSize(800,600);
         Insets m = new Insets(20,20,20,20);
-        button2.setMargin(  m);
-        button2.setText("Ciao");
+        bottoneExit.setMargin(  m);
+        bottoneExit.setText("Ciao");
     }
 
     private void createUIComponents() {

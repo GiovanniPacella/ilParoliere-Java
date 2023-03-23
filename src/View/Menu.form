@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.PROVA">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Menu">
   <grid id="27dc6" binding="PanelMain" layout-manager="GridLayoutManager" row-count="11" column-count="41" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
@@ -46,9 +46,9 @@
           <text value="PAROLIERE"/>
         </properties>
       </component>
-      <component id="cab77" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="cab77" class="javax.swing.JButton" binding="bottoneGioca">
         <constraints>
-          <grid row="3" column="8" row-span="1" col-span="25" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="8" row-span="1" col-span="25" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-3357255"/>
@@ -57,9 +57,9 @@
           <text value="Gioca"/>
         </properties>
       </component>
-      <component id="d9993" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="d9993" class="javax.swing.JButton" binding="bottoneExit">
         <constraints>
-          <grid row="7" column="8" row-span="1" col-span="10" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="8" row-span="1" col-span="10" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-3357255"/>
@@ -68,9 +68,9 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="f6c69" class="javax.swing.JButton" binding="button3" default-binding="true">
+      <component id="f6c69" class="javax.swing.JButton" binding="bottoneClassifica">
         <constraints>
-          <grid row="7" column="23" row-span="1" col-span="10" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="7" column="23" row-span="1" col-span="10" vsize-policy="1" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="80" height="30"/>
           </grid>
         </constraints>

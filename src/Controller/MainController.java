@@ -1,6 +1,6 @@
 package Controller;
 
-import View.PROVA;
+import View.Menu;
 import Model.MainModel;
 import javax.swing.*;
 import java.sql.Connection;
@@ -8,17 +8,10 @@ import java.sql.Connection;
 import java.lang.Math;
 public class MainController {
     public static MainModel model=new MainModel();
-    public static boolean isInDatabase(String parola){
-        DBConnection connDB = new DBConnection();
-        Connection connection = connDB.getConnessione();
-        String sql="SELECT Parole FROM paroledizionariogpo WHERE Parole='"+parola+"';";
-        if(connDB.QueryGenerica(connection, sql)){return true;}
-        return false;
-    }
 
     public static void main(String[] args)
     {
-        PROVA p=new PROVA();
+        Menu p=new Menu();
         p.setContentPane(p.getPanelMain());
         p.setVisible(true);
         p.setSize(800, 600);
