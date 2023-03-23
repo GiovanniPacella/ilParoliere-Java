@@ -41,7 +41,7 @@ public class MainModel {
         this.parolaTrovata+=x;
     }
 
-    public boolean trovaParola(String x){
+    public boolean isParolaTrovata(String x){
         if(x==this.parolaTrovata){
             return true;
         }
