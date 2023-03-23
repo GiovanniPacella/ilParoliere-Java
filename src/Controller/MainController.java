@@ -24,7 +24,7 @@ public class MainController {
         if(isInDatabase(parola) && model.isParolaTrovata(parola)){
 
         }else{
-
+            PAROLA NON TROVATA
         }*/
 
     }

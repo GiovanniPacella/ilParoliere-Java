@@ -7,6 +7,7 @@ public class MainModel {
     private String parolaTrovata;
 
     private int [][] posizioniCaratteri = new int [25][2];
+    private int contatoreParola=0;
 
 
     public MainModel(){}
@@ -36,13 +37,27 @@ public class MainModel {
         }
     }
 
-
-    public void aggiungiCarattereParola(char x){
-        this.parolaTrovata+=x;
+    public boolean isPrimoCaratterePresente(char x){
+        for(int i=0;i<nRigheColonne;i++){
+            for(int j=0; j<nRigheColonne; j++){
+                if(this.Board[i][j]==x){
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
+
     public boolean isParolaTrovata(String x){
-        if(x==this.parolaTrovata){
+        if(isPrimoCaratterePresente(x.charAt(0))){
+            //posizioniCaratteri[this.contatoreParola++][0]=getY(); ordinata del primo carattere
+            //posizioniCaratteri[this.contatoreParola++][1]=getX(); ascissa del primo carattere
+            for(int i=1;i<x.length();i++){ // Controllo
+                if(!verificaCarattere(x.charAt(i))){
+                    return false;
+                }
+            }
             return true;
         }
         return false;
@@ -50,6 +65,7 @@ public class MainModel {
     }
 
     public boolean verificaCarattere(char x){
+        //DA COMPLETARE
         if((x+1)>nRigheColonne){
             return true;
         }
