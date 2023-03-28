@@ -14,11 +14,6 @@
     </properties>
     <border type="none"/>
     <children>
-      <vspacer id="dcfe7">
-        <constraints>
-          <grid row="0" column="1" row-span="12" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
       <vspacer id="cd579">
         <constraints>
           <grid row="0" column="39" row-span="9" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
@@ -269,6 +264,11 @@
       <vspacer id="52a01">
         <constraints>
           <grid row="9" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="dcfe7">
+        <constraints>
+          <grid row="0" column="1" row-span="11" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
     </children>
