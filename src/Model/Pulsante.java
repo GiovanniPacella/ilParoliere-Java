@@ -3,7 +3,7 @@ package Model;
 public class Pulsante {
     private int x;
     private int y;
-    private char carattere;
+    private char carattere='?';
 
     public char getCarattere() {
         return carattere;
