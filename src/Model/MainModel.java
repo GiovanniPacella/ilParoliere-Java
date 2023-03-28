@@ -3,7 +3,7 @@ package Model;
 public class MainModel {
     private int nRigheColonne=5;
     private char lettere[]= {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
-    private char Board[][] = new char[nRigheColonne][nRigheColonne];
+    private Pulsante Board[][] = new Pulsante[nRigheColonne][nRigheColonne];
     private String parolaTrovata;
 
     private int [][] posizioniCaratteri = new int [25][2];
@@ -21,7 +21,9 @@ public class MainModel {
             for(int j=0; j<nRigheColonne; j++)
             {
                 int nCasuale= (int) (Math.random()*lettere.length);
-                Board[i][j]=lettere[nCasuale];
+                Board[i][j].setCarattere(lettere[nCasuale]);
+                Board[i][j].setX(j);
+                Board[i][j].setY(i);
             }
         }
     }
@@ -31,7 +33,7 @@ public class MainModel {
         {
             for(int j=0; j<nRigheColonne; j++)
             {
-                System.out.print(this.Board[i][j]+" ");
+                System.out.print(this.Board[i][j].getCarattere()+" ");
             }
             System.out.println("");
         }
@@ -40,7 +42,7 @@ public class MainModel {
     public boolean isPrimoCaratterePresente(char x){
         for(int i=0;i<nRigheColonne;i++){
             for(int j=0; j<nRigheColonne; j++){
-                if(this.Board[i][j]==x){
+                if(this.Board[i][j].getCarattere()==x){
                     return true;
                 }
             }
@@ -76,7 +78,7 @@ public class MainModel {
         this.parolaTrovata = parolaTrovata;
     }
 
-    public char[][] getBoard(){
+    public Pulsante[][] getBoard(){
         return this.Board;
     }
 }

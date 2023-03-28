@@ -1,5 +1,6 @@
 package Controller;
 
+import Model.Pulsante;
 import View.Menu;
 import Model.MainModel;
 import javax.swing.*;
@@ -16,7 +17,7 @@ public class MainController {
         p.setVisible(true);
         p.setSize(800, 600);
         p.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        char[][] matriceLettere = new char[5][5];
+        Pulsante[][] matriceLettere = new Pulsante[5][5];
         model.creaBoard();
         matriceLettere=model.getBoard();
 
