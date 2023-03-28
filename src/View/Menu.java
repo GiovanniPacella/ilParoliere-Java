@@ -37,8 +37,8 @@ public class Menu extends JFrame{
         pack();
         PanelMain.setSize(800,600);
         Insets m = new Insets(20,20,20,20);
-        bottoneExit.setMargin(  m);
-        bottoneExit.setText("Ciao");
+        bottoneExit.addActionListener(e -> System.exit(0));
+
     }
 
     private void createUIComponents() {
