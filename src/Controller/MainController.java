@@ -15,7 +15,7 @@ public class MainController {
         Menu p=new Menu();
         p.setContentPane(p.getPanelMain());
         p.setVisible(true);
-        p.setSize(800, 600);
+        p.setSize(700, 500);
         p.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Pulsante[][] matriceLettere = new Pulsante[5][5];
         model.creaBoard();
