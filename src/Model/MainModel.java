@@ -21,6 +21,7 @@ public class MainModel {
             for(int j=0; j<nRigheColonne; j++)
             {
                 int nCasuale= (int) (Math.random()*lettere.length);
+                System.out.println("IJ : "+i+"-"+j);
                 Board[i][j].setCarattere(lettere[nCasuale]);
                 Board[i][j].setX(j);
                 Board[i][j].setY(i);
@@ -53,8 +54,8 @@ public class MainModel {
 
     public boolean isParolaTrovata(String x){
         if(isPrimoCaratterePresente(x.charAt(0))){
-            //posizioniCaratteri[this.contatoreParola++][0]=getY(); ordinata del primo carattere
-            //posizioniCaratteri[this.contatoreParola++][1]=getX(); ascissa del primo carattere
+            posizioniCaratteri[this.contatoreParola++][0]=this.Board[0][0].getY(); //ordinata del primo carattere
+            posizioniCaratteri[this.contatoreParola++][1]=this.Board[0][0].getX(); //ascissa del primo carattere
             for(int i=1;i<x.length();i++){ // Controllo
                 if(!verificaCarattere(x.charAt(i))){
                     return false;

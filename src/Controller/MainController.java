@@ -22,9 +22,10 @@ public class MainController {
         p.setVisible(true);
         p.setSize(700, 500);
         p.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Pulsante[][] matriceLettere = new Pulsante[5][5];
-        model.creaBoard();
-        matriceLettere=model.getBoard();
+        MainModel modello = new MainModel();
+        modello.creaBoard();
+        Pulsante [][] matriceLettere=model.getBoard();
+        modello.stampaBoard();
 
         /*String parola = casellaTesto.getText();
         if(isInDatabase(parola) && model.isParolaTrovata(parola)){
