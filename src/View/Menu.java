@@ -35,9 +35,10 @@ public class Menu extends JFrame{
     public Menu() {
         setLocationRelativeTo(null);
         pack();
-        PanelMain.setSize(800,600);
+        PanelMain.setSize(800,400);
         Insets m = new Insets(20,20,20,20);
         bottoneExit.addActionListener(e -> System.exit(0));
+        //bottoneGioca.addActionListener(e -> );
 
     }
 

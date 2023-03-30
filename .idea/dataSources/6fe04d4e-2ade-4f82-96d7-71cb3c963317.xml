@@ -1,0 +1,3131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Database Scuola">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.45">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <Grants>|root||alvarez|localhost|ALTER|G
+|root||angelo|localhost|ALTER|G
+|root||bagnati|localhost|ALTER|G
+|root||caretti|localhost|ALTER|G
+|root||casalini|localhost|ALTER|G
+|root||cassani|localhost|ALTER|G
+|root||castelli|localhost|ALTER|G
+|root||castiglioni|localhost|ALTER|G
+|root||chiarinotti|172.22.%.%|ALTER|G
+|root||chiarinotti|localhost|ALTER|G
+|root||como|localhost|ALTER|G
+|root||comolli|localhost|ALTER|G
+|root||ettaher|localhost|ALTER|G
+|root||ferraro|localhost|ALTER|G
+|root||galbasini|localhost|ALTER|G
+|root||gazzea|localhost|ALTER|G
+|root||giani|localhost|ALTER|G
+|root||kozemko|localhost|ALTER|G
+|root||laterra|localhost|ALTER|G
+|root||lattanzi|localhost|ALTER|G
+|root||lavelli|localhost|ALTER|G
+|root||linzas|localhost|ALTER|G
+|root||lodi|localhost|ALTER|G
+|root||martinetti|localhost|ALTER|G
+|root||minuzzo|localhost|ALTER|G
+|root||morga|localhost|ALTER|G
+|root||mysql|localhost|ALTER|G
+|root||pacella|localhost|ALTER|G
+|root||protasio|localhost|ALTER|G
+|root||ramoni|localhost|ALTER|G
+|root||root|localhost|ALTER|G
+|root||rosetta|localhost|ALTER|G
+|root||sannino|localhost|ALTER|G
+|root||sassi|localhost|ALTER|G
+|root||sinacori|localhost|ALTER|G
+|root||tagini|localhost|ALTER|G
+|root||tarabella|localhost|ALTER|G
+|root||tatti|localhost|ALTER|G
+|root||utentedb|172.22.%.%|ALTER|G
+|root||vellone|localhost|ALTER|G
+|root||vidoni|localhost|ALTER|G
+|root||virgilio|localhost|ALTER|G
+|root||alvarez|localhost|ALTER ROUTINE|G
+|root||angelo|localhost|ALTER ROUTINE|G
+|root||bagnati|localhost|ALTER ROUTINE|G
+|root||caretti|localhost|ALTER ROUTINE|G
+|root||casalini|localhost|ALTER ROUTINE|G
+|root||cassani|localhost|ALTER ROUTINE|G
+|root||castelli|localhost|ALTER ROUTINE|G
+|root||castiglioni|localhost|ALTER ROUTINE|G
+|root||chiarinotti|172.22.%.%|ALTER ROUTINE|G
+|root||chiarinotti|localhost|ALTER ROUTINE|G
+|root||como|localhost|ALTER ROUTINE|G
+|root||comolli|localhost|ALTER ROUTINE|G
+|root||ettaher|localhost|ALTER ROUTINE|G
+|root||ferraro|localhost|ALTER ROUTINE|G
+|root||galbasini|localhost|ALTER ROUTINE|G
+|root||gazzea|localhost|ALTER ROUTINE|G
+|root||giani|localhost|ALTER ROUTINE|G
+|root||kozemko|localhost|ALTER ROUTINE|G
+|root||laterra|localhost|ALTER ROUTINE|G
+|root||lattanzi|localhost|ALTER ROUTINE|G
+|root||lavelli|localhost|ALTER ROUTINE|G
+|root||linzas|localhost|ALTER ROUTINE|G
+|root||lodi|localhost|ALTER ROUTINE|G
+|root||martinetti|localhost|ALTER ROUTINE|G
+|root||minuzzo|localhost|ALTER ROUTINE|G
+|root||morga|localhost|ALTER ROUTINE|G
+|root||mysql|localhost|ALTER ROUTINE|G
+|root||pacella|localhost|ALTER ROUTINE|G
+|root||protasio|localhost|ALTER ROUTINE|G
+|root||ramoni|localhost|ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||rosetta|localhost|ALTER ROUTINE|G
+|root||sannino|localhost|ALTER ROUTINE|G
+|root||sassi|localhost|ALTER ROUTINE|G
+|root||sinacori|localhost|ALTER ROUTINE|G
+|root||tagini|localhost|ALTER ROUTINE|G
+|root||tarabella|localhost|ALTER ROUTINE|G
+|root||tatti|localhost|ALTER ROUTINE|G
+|root||utentedb|172.22.%.%|ALTER ROUTINE|G
+|root||vellone|localhost|ALTER ROUTINE|G
+|root||vidoni|localhost|ALTER ROUTINE|G
+|root||virgilio|localhost|ALTER ROUTINE|G
+|root||alvarez|localhost|BINLOG ADMIN|G
+|root||angelo|localhost|BINLOG ADMIN|G
+|root||bagnati|localhost|BINLOG ADMIN|G
+|root||caretti|localhost|BINLOG ADMIN|G
+|root||casalini|localhost|BINLOG ADMIN|G
+|root||cassani|localhost|BINLOG ADMIN|G
+|root||castelli|localhost|BINLOG ADMIN|G
+|root||castiglioni|localhost|BINLOG ADMIN|G
+|root||chiarinotti|172.22.%.%|BINLOG ADMIN|G
+|root||chiarinotti|localhost|BINLOG ADMIN|G
+|root||como|localhost|BINLOG ADMIN|G
+|root||comolli|localhost|BINLOG ADMIN|G
+|root||ettaher|localhost|BINLOG ADMIN|G
+|root||ferraro|localhost|BINLOG ADMIN|G
+|root||galbasini|localhost|BINLOG ADMIN|G
+|root||gazzea|localhost|BINLOG ADMIN|G
+|root||giani|localhost|BINLOG ADMIN|G
+|root||kozemko|localhost|BINLOG ADMIN|G
+|root||laterra|localhost|BINLOG ADMIN|G
+|root||lattanzi|localhost|BINLOG ADMIN|G
+|root||lavelli|localhost|BINLOG ADMIN|G
+|root||linzas|localhost|BINLOG ADMIN|G
+|root||lodi|localhost|BINLOG ADMIN|G
+|root||martinetti|localhost|BINLOG ADMIN|G
+|root||minuzzo|localhost|BINLOG ADMIN|G
+|root||morga|localhost|BINLOG ADMIN|G
+|root||mysql|localhost|BINLOG ADMIN|G
+|root||pacella|localhost|BINLOG ADMIN|G
+|root||protasio|localhost|BINLOG ADMIN|G
+|root||ramoni|localhost|BINLOG ADMIN|G
+|root||root|localhost|BINLOG ADMIN|G
+|root||rosetta|localhost|BINLOG ADMIN|G
+|root||sannino|localhost|BINLOG ADMIN|G
+|root||sassi|localhost|BINLOG ADMIN|G
+|root||sinacori|localhost|BINLOG ADMIN|G
+|root||tagini|localhost|BINLOG ADMIN|G
+|root||tarabella|localhost|BINLOG ADMIN|G
+|root||tatti|localhost|BINLOG ADMIN|G
+|root||utentedb|172.22.%.%|BINLOG ADMIN|G
+|root||vellone|localhost|BINLOG ADMIN|G
+|root||vidoni|localhost|BINLOG ADMIN|G
+|root||virgilio|localhost|BINLOG ADMIN|G
+|root||alvarez|localhost|BINLOG MONITOR|G
+|root||angelo|localhost|BINLOG MONITOR|G
+|root||bagnati|localhost|BINLOG MONITOR|G
+|root||caretti|localhost|BINLOG MONITOR|G
+|root||casalini|localhost|BINLOG MONITOR|G
+|root||cassani|localhost|BINLOG MONITOR|G
+|root||castelli|localhost|BINLOG MONITOR|G
+|root||castiglioni|localhost|BINLOG MONITOR|G
+|root||chiarinotti|172.22.%.%|BINLOG MONITOR|G
+|root||chiarinotti|localhost|BINLOG MONITOR|G
+|root||como|localhost|BINLOG MONITOR|G
+|root||comolli|localhost|BINLOG MONITOR|G
+|root||ettaher|localhost|BINLOG MONITOR|G
+|root||ferraro|localhost|BINLOG MONITOR|G
+|root||galbasini|localhost|BINLOG MONITOR|G
+|root||gazzea|localhost|BINLOG MONITOR|G
+|root||giani|localhost|BINLOG MONITOR|G
+|root||kozemko|localhost|BINLOG MONITOR|G
+|root||laterra|localhost|BINLOG MONITOR|G
+|root||lattanzi|localhost|BINLOG MONITOR|G
+|root||lavelli|localhost|BINLOG MONITOR|G
+|root||linzas|localhost|BINLOG MONITOR|G
+|root||lodi|localhost|BINLOG MONITOR|G
+|root||martinetti|localhost|BINLOG MONITOR|G
+|root||minuzzo|localhost|BINLOG MONITOR|G
+|root||morga|localhost|BINLOG MONITOR|G
+|root||mysql|localhost|BINLOG MONITOR|G
+|root||pacella|localhost|BINLOG MONITOR|G
+|root||protasio|localhost|BINLOG MONITOR|G
+|root||ramoni|localhost|BINLOG MONITOR|G
+|root||root|localhost|BINLOG MONITOR|G
+|root||rosetta|localhost|BINLOG MONITOR|G
+|root||sannino|localhost|BINLOG MONITOR|G
+|root||sassi|localhost|BINLOG MONITOR|G
+|root||sinacori|localhost|BINLOG MONITOR|G
+|root||tagini|localhost|BINLOG MONITOR|G
+|root||tarabella|localhost|BINLOG MONITOR|G
+|root||tatti|localhost|BINLOG MONITOR|G
+|root||utentedb|172.22.%.%|BINLOG MONITOR|G
+|root||vellone|localhost|BINLOG MONITOR|G
+|root||vidoni|localhost|BINLOG MONITOR|G
+|root||virgilio|localhost|BINLOG MONITOR|G
+|root||alvarez|localhost|BINLOG REPLAY|G
+|root||angelo|localhost|BINLOG REPLAY|G
+|root||bagnati|localhost|BINLOG REPLAY|G
+|root||caretti|localhost|BINLOG REPLAY|G
+|root||casalini|localhost|BINLOG REPLAY|G
+|root||cassani|localhost|BINLOG REPLAY|G
+|root||castelli|localhost|BINLOG REPLAY|G
+|root||castiglioni|localhost|BINLOG REPLAY|G
+|root||chiarinotti|172.22.%.%|BINLOG REPLAY|G
+|root||chiarinotti|localhost|BINLOG REPLAY|G
+|root||como|localhost|BINLOG REPLAY|G
+|root||comolli|localhost|BINLOG REPLAY|G
+|root||ettaher|localhost|BINLOG REPLAY|G
+|root||ferraro|localhost|BINLOG REPLAY|G
+|root||galbasini|localhost|BINLOG REPLAY|G
+|root||gazzea|localhost|BINLOG REPLAY|G
+|root||giani|localhost|BINLOG REPLAY|G
+|root||kozemko|localhost|BINLOG REPLAY|G
+|root||laterra|localhost|BINLOG REPLAY|G
+|root||lattanzi|localhost|BINLOG REPLAY|G
+|root||lavelli|localhost|BINLOG REPLAY|G
+|root||linzas|localhost|BINLOG REPLAY|G
+|root||lodi|localhost|BINLOG REPLAY|G
+|root||martinetti|localhost|BINLOG REPLAY|G
+|root||minuzzo|localhost|BINLOG REPLAY|G
+|root||morga|localhost|BINLOG REPLAY|G
+|root||mysql|localhost|BINLOG REPLAY|G
+|root||pacella|localhost|BINLOG REPLAY|G
+|root||protasio|localhost|BINLOG REPLAY|G
+|root||ramoni|localhost|BINLOG REPLAY|G
+|root||root|localhost|BINLOG REPLAY|G
+|root||rosetta|localhost|BINLOG REPLAY|G
+|root||sannino|localhost|BINLOG REPLAY|G
+|root||sassi|localhost|BINLOG REPLAY|G
+|root||sinacori|localhost|BINLOG REPLAY|G
+|root||tagini|localhost|BINLOG REPLAY|G
+|root||tarabella|localhost|BINLOG REPLAY|G
+|root||tatti|localhost|BINLOG REPLAY|G
+|root||utentedb|172.22.%.%|BINLOG REPLAY|G
+|root||vellone|localhost|BINLOG REPLAY|G
+|root||vidoni|localhost|BINLOG REPLAY|G
+|root||virgilio|localhost|BINLOG REPLAY|G
+|root||alvarez|localhost|CONNECTION ADMIN|G
+|root||angelo|localhost|CONNECTION ADMIN|G
+|root||bagnati|localhost|CONNECTION ADMIN|G
+|root||caretti|localhost|CONNECTION ADMIN|G
+|root||casalini|localhost|CONNECTION ADMIN|G
+|root||cassani|localhost|CONNECTION ADMIN|G
+|root||castelli|localhost|CONNECTION ADMIN|G
+|root||castiglioni|localhost|CONNECTION ADMIN|G
+|root||chiarinotti|172.22.%.%|CONNECTION ADMIN|G
+|root||chiarinotti|localhost|CONNECTION ADMIN|G
+|root||como|localhost|CONNECTION ADMIN|G
+|root||comolli|localhost|CONNECTION ADMIN|G
+|root||ettaher|localhost|CONNECTION ADMIN|G
+|root||ferraro|localhost|CONNECTION ADMIN|G
+|root||galbasini|localhost|CONNECTION ADMIN|G
+|root||gazzea|localhost|CONNECTION ADMIN|G
+|root||giani|localhost|CONNECTION ADMIN|G
+|root||kozemko|localhost|CONNECTION ADMIN|G
+|root||laterra|localhost|CONNECTION ADMIN|G
+|root||lattanzi|localhost|CONNECTION ADMIN|G
+|root||lavelli|localhost|CONNECTION ADMIN|G
+|root||linzas|localhost|CONNECTION ADMIN|G
+|root||lodi|localhost|CONNECTION ADMIN|G
+|root||martinetti|localhost|CONNECTION ADMIN|G
+|root||minuzzo|localhost|CONNECTION ADMIN|G
+|root||morga|localhost|CONNECTION ADMIN|G
+|root||mysql|localhost|CONNECTION ADMIN|G
+|root||pacella|localhost|CONNECTION ADMIN|G
+|root||protasio|localhost|CONNECTION ADMIN|G
+|root||ramoni|localhost|CONNECTION ADMIN|G
+|root||root|localhost|CONNECTION ADMIN|G
+|root||rosetta|localhost|CONNECTION ADMIN|G
+|root||sannino|localhost|CONNECTION ADMIN|G
+|root||sassi|localhost|CONNECTION ADMIN|G
+|root||sinacori|localhost|CONNECTION ADMIN|G
+|root||tagini|localhost|CONNECTION ADMIN|G
+|root||tarabella|localhost|CONNECTION ADMIN|G
+|root||tatti|localhost|CONNECTION ADMIN|G
+|root||utentedb|172.22.%.%|CONNECTION ADMIN|G
+|root||vellone|localhost|CONNECTION ADMIN|G
+|root||vidoni|localhost|CONNECTION ADMIN|G
+|root||virgilio|localhost|CONNECTION ADMIN|G
+|root||alvarez|localhost|CREATE|G
+|root||angelo|localhost|CREATE|G
+|root||bagnati|localhost|CREATE|G
+|root||caretti|localhost|CREATE|G
+|root||casalini|localhost|CREATE|G
+|root||cassani|localhost|CREATE|G
+|root||castelli|localhost|CREATE|G
+|root||castiglioni|localhost|CREATE|G
+|root||chiarinotti|172.22.%.%|CREATE|G
+|root||chiarinotti|localhost|CREATE|G
+|root||como|localhost|CREATE|G
+|root||comolli|localhost|CREATE|G
+|root||ettaher|localhost|CREATE|G
+|root||ferraro|localhost|CREATE|G
+|root||galbasini|localhost|CREATE|G
+|root||gazzea|localhost|CREATE|G
+|root||giani|localhost|CREATE|G
+|root||kozemko|localhost|CREATE|G
+|root||laterra|localhost|CREATE|G
+|root||lattanzi|localhost|CREATE|G
+|root||lavelli|localhost|CREATE|G
+|root||linzas|localhost|CREATE|G
+|root||lodi|localhost|CREATE|G
+|root||martinetti|localhost|CREATE|G
+|root||minuzzo|localhost|CREATE|G
+|root||morga|localhost|CREATE|G
+|root||mysql|localhost|CREATE|G
+|root||pacella|localhost|CREATE|G
+|root||protasio|localhost|CREATE|G
+|root||ramoni|localhost|CREATE|G
+|root||root|localhost|CREATE|G
+|root||rosetta|localhost|CREATE|G
+|root||sannino|localhost|CREATE|G
+|root||sassi|localhost|CREATE|G
+|root||sinacori|localhost|CREATE|G
+|root||tagini|localhost|CREATE|G
+|root||tarabella|localhost|CREATE|G
+|root||tatti|localhost|CREATE|G
+|root||utentedb|172.22.%.%|CREATE|G
+|root||vellone|localhost|CREATE|G
+|root||vidoni|localhost|CREATE|G
+|root||virgilio|localhost|CREATE|G
+|root||alvarez|localhost|CREATE ROUTINE|G
+|root||angelo|localhost|CREATE ROUTINE|G
+|root||bagnati|localhost|CREATE ROUTINE|G
+|root||caretti|localhost|CREATE ROUTINE|G
+|root||casalini|localhost|CREATE ROUTINE|G
+|root||cassani|localhost|CREATE ROUTINE|G
+|root||castelli|localhost|CREATE ROUTINE|G
+|root||castiglioni|localhost|CREATE ROUTINE|G
+|root||chiarinotti|172.22.%.%|CREATE ROUTINE|G
+|root||chiarinotti|localhost|CREATE ROUTINE|G
+|root||como|localhost|CREATE ROUTINE|G
+|root||comolli|localhost|CREATE ROUTINE|G
+|root||ettaher|localhost|CREATE ROUTINE|G
+|root||ferraro|localhost|CREATE ROUTINE|G
+|root||galbasini|localhost|CREATE ROUTINE|G
+|root||gazzea|localhost|CREATE ROUTINE|G
+|root||giani|localhost|CREATE ROUTINE|G
+|root||kozemko|localhost|CREATE ROUTINE|G
+|root||laterra|localhost|CREATE ROUTINE|G
+|root||lattanzi|localhost|CREATE ROUTINE|G
+|root||lavelli|localhost|CREATE ROUTINE|G
+|root||linzas|localhost|CREATE ROUTINE|G
+|root||lodi|localhost|CREATE ROUTINE|G
+|root||martinetti|localhost|CREATE ROUTINE|G
+|root||minuzzo|localhost|CREATE ROUTINE|G
+|root||morga|localhost|CREATE ROUTINE|G
+|root||mysql|localhost|CREATE ROUTINE|G
+|root||pacella|localhost|CREATE ROUTINE|G
+|root||protasio|localhost|CREATE ROUTINE|G
+|root||ramoni|localhost|CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||rosetta|localhost|CREATE ROUTINE|G
+|root||sannino|localhost|CREATE ROUTINE|G
+|root||sassi|localhost|CREATE ROUTINE|G
+|root||sinacori|localhost|CREATE ROUTINE|G
+|root||tagini|localhost|CREATE ROUTINE|G
+|root||tarabella|localhost|CREATE ROUTINE|G
+|root||tatti|localhost|CREATE ROUTINE|G
+|root||utentedb|172.22.%.%|CREATE ROUTINE|G
+|root||vellone|localhost|CREATE ROUTINE|G
+|root||vidoni|localhost|CREATE ROUTINE|G
+|root||virgilio|localhost|CREATE ROUTINE|G
+|root||alvarez|localhost|CREATE TABLESPACE|G
+|root||angelo|localhost|CREATE TABLESPACE|G
+|root||bagnati|localhost|CREATE TABLESPACE|G
+|root||caretti|localhost|CREATE TABLESPACE|G
+|root||casalini|localhost|CREATE TABLESPACE|G
+|root||cassani|localhost|CREATE TABLESPACE|G
+|root||castelli|localhost|CREATE TABLESPACE|G
+|root||castiglioni|localhost|CREATE TABLESPACE|G
+|root||chiarinotti|172.22.%.%|CREATE TABLESPACE|G
+|root||chiarinotti|localhost|CREATE TABLESPACE|G
+|root||como|localhost|CREATE TABLESPACE|G
+|root||comolli|localhost|CREATE TABLESPACE|G
+|root||ettaher|localhost|CREATE TABLESPACE|G
+|root||ferraro|localhost|CREATE TABLESPACE|G
+|root||galbasini|localhost|CREATE TABLESPACE|G
+|root||gazzea|localhost|CREATE TABLESPACE|G
+|root||giani|localhost|CREATE TABLESPACE|G
+|root||kozemko|localhost|CREATE TABLESPACE|G
+|root||laterra|localhost|CREATE TABLESPACE|G
+|root||lattanzi|localhost|CREATE TABLESPACE|G
+|root||lavelli|localhost|CREATE TABLESPACE|G
+|root||linzas|localhost|CREATE TABLESPACE|G
+|root||lodi|localhost|CREATE TABLESPACE|G
+|root||martinetti|localhost|CREATE TABLESPACE|G
+|root||minuzzo|localhost|CREATE TABLESPACE|G
+|root||morga|localhost|CREATE TABLESPACE|G
+|root||mysql|localhost|CREATE TABLESPACE|G
+|root||pacella|localhost|CREATE TABLESPACE|G
+|root||protasio|localhost|CREATE TABLESPACE|G
+|root||ramoni|localhost|CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||rosetta|localhost|CREATE TABLESPACE|G
+|root||sannino|localhost|CREATE TABLESPACE|G
+|root||sassi|localhost|CREATE TABLESPACE|G
+|root||sinacori|localhost|CREATE TABLESPACE|G
+|root||tagini|localhost|CREATE TABLESPACE|G
+|root||tarabella|localhost|CREATE TABLESPACE|G
+|root||tatti|localhost|CREATE TABLESPACE|G
+|root||utentedb|172.22.%.%|CREATE TABLESPACE|G
+|root||vellone|localhost|CREATE TABLESPACE|G
+|root||vidoni|localhost|CREATE TABLESPACE|G
+|root||virgilio|localhost|CREATE TABLESPACE|G
+|root||alvarez|localhost|CREATE TEMPORARY TABLES|G
+|root||angelo|localhost|CREATE TEMPORARY TABLES|G
+|root||bagnati|localhost|CREATE TEMPORARY TABLES|G
+|root||caretti|localhost|CREATE TEMPORARY TABLES|G
+|root||casalini|localhost|CREATE TEMPORARY TABLES|G
+|root||cassani|localhost|CREATE TEMPORARY TABLES|G
+|root||castelli|localhost|CREATE TEMPORARY TABLES|G
+|root||castiglioni|localhost|CREATE TEMPORARY TABLES|G
+|root||chiarinotti|172.22.%.%|CREATE TEMPORARY TABLES|G
+|root||chiarinotti|localhost|CREATE TEMPORARY TABLES|G
+|root||como|localhost|CREATE TEMPORARY TABLES|G
+|root||comolli|localhost|CREATE TEMPORARY TABLES|G
+|root||ettaher|localhost|CREATE TEMPORARY TABLES|G
+|root||ferraro|localhost|CREATE TEMPORARY TABLES|G
+|root||galbasini|localhost|CREATE TEMPORARY TABLES|G
+|root||gazzea|localhost|CREATE TEMPORARY TABLES|G
+|root||giani|localhost|CREATE TEMPORARY TABLES|G
+|root||kozemko|localhost|CREATE TEMPORARY TABLES|G
+|root||laterra|localhost|CREATE TEMPORARY TABLES|G
+|root||lattanzi|localhost|CREATE TEMPORARY TABLES|G
+|root||lavelli|localhost|CREATE TEMPORARY TABLES|G
+|root||linzas|localhost|CREATE TEMPORARY TABLES|G
+|root||lodi|localhost|CREATE TEMPORARY TABLES|G
+|root||martinetti|localhost|CREATE TEMPORARY TABLES|G
+|root||minuzzo|localhost|CREATE TEMPORARY TABLES|G
+|root||morga|localhost|CREATE TEMPORARY TABLES|G
+|root||mysql|localhost|CREATE TEMPORARY TABLES|G
+|root||pacella|localhost|CREATE TEMPORARY TABLES|G
+|root||protasio|localhost|CREATE TEMPORARY TABLES|G
+|root||ramoni|localhost|CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||rosetta|localhost|CREATE TEMPORARY TABLES|G
+|root||sannino|localhost|CREATE TEMPORARY TABLES|G
+|root||sassi|localhost|CREATE TEMPORARY TABLES|G
+|root||sinacori|localhost|CREATE TEMPORARY TABLES|G
+|root||tagini|localhost|CREATE TEMPORARY TABLES|G
+|root||tarabella|localhost|CREATE TEMPORARY TABLES|G
+|root||tatti|localhost|CREATE TEMPORARY TABLES|G
+|root||utentedb|172.22.%.%|CREATE TEMPORARY TABLES|G
+|root||vellone|localhost|CREATE TEMPORARY TABLES|G
+|root||vidoni|localhost|CREATE TEMPORARY TABLES|G
+|root||virgilio|localhost|CREATE TEMPORARY TABLES|G
+|root||alvarez|localhost|CREATE USER|G
+|root||angelo|localhost|CREATE USER|G
+|root||bagnati|localhost|CREATE USER|G
+|root||caretti|localhost|CREATE USER|G
+|root||casalini|localhost|CREATE USER|G
+|root||cassani|localhost|CREATE USER|G
+|root||castelli|localhost|CREATE USER|G
+|root||castiglioni|localhost|CREATE USER|G
+|root||chiarinotti|172.22.%.%|CREATE USER|G
+|root||chiarinotti|localhost|CREATE USER|G
+|root||como|localhost|CREATE USER|G
+|root||comolli|localhost|CREATE USER|G
+|root||ettaher|localhost|CREATE USER|G
+|root||ferraro|localhost|CREATE USER|G
+|root||galbasini|localhost|CREATE USER|G
+|root||gazzea|localhost|CREATE USER|G
+|root||giani|localhost|CREATE USER|G
+|root||kozemko|localhost|CREATE USER|G
+|root||laterra|localhost|CREATE USER|G
+|root||lattanzi|localhost|CREATE USER|G
+|root||lavelli|localhost|CREATE USER|G
+|root||linzas|localhost|CREATE USER|G
+|root||lodi|localhost|CREATE USER|G
+|root||martinetti|localhost|CREATE USER|G
+|root||minuzzo|localhost|CREATE USER|G
+|root||morga|localhost|CREATE USER|G
+|root||mysql|localhost|CREATE USER|G
+|root||pacella|localhost|CREATE USER|G
+|root||protasio|localhost|CREATE USER|G
+|root||ramoni|localhost|CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||rosetta|localhost|CREATE USER|G
+|root||sannino|localhost|CREATE USER|G
+|root||sassi|localhost|CREATE USER|G
+|root||sinacori|localhost|CREATE USER|G
+|root||tagini|localhost|CREATE USER|G
+|root||tarabella|localhost|CREATE USER|G
+|root||tatti|localhost|CREATE USER|G
+|root||utentedb|172.22.%.%|CREATE USER|G
+|root||vellone|localhost|CREATE USER|G
+|root||vidoni|localhost|CREATE USER|G
+|root||virgilio|localhost|CREATE USER|G
+|root||alvarez|localhost|CREATE VIEW|G
+|root||angelo|localhost|CREATE VIEW|G
+|root||bagnati|localhost|CREATE VIEW|G
+|root||caretti|localhost|CREATE VIEW|G
+|root||casalini|localhost|CREATE VIEW|G
+|root||cassani|localhost|CREATE VIEW|G
+|root||castelli|localhost|CREATE VIEW|G
+|root||castiglioni|localhost|CREATE VIEW|G
+|root||chiarinotti|172.22.%.%|CREATE VIEW|G
+|root||chiarinotti|localhost|CREATE VIEW|G
+|root||como|localhost|CREATE VIEW|G
+|root||comolli|localhost|CREATE VIEW|G
+|root||ettaher|localhost|CREATE VIEW|G
+|root||ferraro|localhost|CREATE VIEW|G
+|root||galbasini|localhost|CREATE VIEW|G
+|root||gazzea|localhost|CREATE VIEW|G
+|root||giani|localhost|CREATE VIEW|G
+|root||kozemko|localhost|CREATE VIEW|G
+|root||laterra|localhost|CREATE VIEW|G
+|root||lattanzi|localhost|CREATE VIEW|G
+|root||lavelli|localhost|CREATE VIEW|G
+|root||linzas|localhost|CREATE VIEW|G
+|root||lodi|localhost|CREATE VIEW|G
+|root||martinetti|localhost|CREATE VIEW|G
+|root||minuzzo|localhost|CREATE VIEW|G
+|root||morga|localhost|CREATE VIEW|G
+|root||mysql|localhost|CREATE VIEW|G
+|root||pacella|localhost|CREATE VIEW|G
+|root||protasio|localhost|CREATE VIEW|G
+|root||ramoni|localhost|CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||rosetta|localhost|CREATE VIEW|G
+|root||sannino|localhost|CREATE VIEW|G
+|root||sassi|localhost|CREATE VIEW|G
+|root||sinacori|localhost|CREATE VIEW|G
+|root||tagini|localhost|CREATE VIEW|G
+|root||tarabella|localhost|CREATE VIEW|G
+|root||tatti|localhost|CREATE VIEW|G
+|root||utentedb|172.22.%.%|CREATE VIEW|G
+|root||vellone|localhost|CREATE VIEW|G
+|root||vidoni|localhost|CREATE VIEW|G
+|root||virgilio|localhost|CREATE VIEW|G
+|root||alvarez|localhost|DELETE|G
+|root||angelo|localhost|DELETE|G
+|root||bagnati|localhost|DELETE|G
+|root||caretti|localhost|DELETE|G
+|root||casalini|localhost|DELETE|G
+|root||cassani|localhost|DELETE|G
+|root||castelli|localhost|DELETE|G
+|root||castiglioni|localhost|DELETE|G
+|root||chiarinotti|172.22.%.%|DELETE|G
+|root||chiarinotti|localhost|DELETE|G
+|root||como|localhost|DELETE|G
+|root||comolli|localhost|DELETE|G
+|root||ettaher|localhost|DELETE|G
+|root||ferraro|localhost|DELETE|G
+|root||galbasini|localhost|DELETE|G
+|root||gazzea|localhost|DELETE|G
+|root||giani|localhost|DELETE|G
+|root||kozemko|localhost|DELETE|G
+|root||laterra|localhost|DELETE|G
+|root||lattanzi|localhost|DELETE|G
+|root||lavelli|localhost|DELETE|G
+|root||linzas|localhost|DELETE|G
+|root||lodi|localhost|DELETE|G
+|root||martinetti|localhost|DELETE|G
+|root||minuzzo|localhost|DELETE|G
+|root||morga|localhost|DELETE|G
+|root||mysql|localhost|DELETE|G
+|root||pacella|localhost|DELETE|G
+|root||protasio|localhost|DELETE|G
+|root||ramoni|localhost|DELETE|G
+|root||root|localhost|DELETE|G
+|root||rosetta|localhost|DELETE|G
+|root||sannino|localhost|DELETE|G
+|root||sassi|localhost|DELETE|G
+|root||sinacori|localhost|DELETE|G
+|root||tagini|localhost|DELETE|G
+|root||tarabella|localhost|DELETE|G
+|root||tatti|localhost|DELETE|G
+|root||utentedb|172.22.%.%|DELETE|G
+|root||vellone|localhost|DELETE|G
+|root||vidoni|localhost|DELETE|G
+|root||virgilio|localhost|DELETE|G
+|root||alvarez|localhost|DELETE HISTORY|G
+|root||angelo|localhost|DELETE HISTORY|G
+|root||bagnati|localhost|DELETE HISTORY|G
+|root||caretti|localhost|DELETE HISTORY|G
+|root||casalini|localhost|DELETE HISTORY|G
+|root||cassani|localhost|DELETE HISTORY|G
+|root||castelli|localhost|DELETE HISTORY|G
+|root||castiglioni|localhost|DELETE HISTORY|G
+|root||chiarinotti|172.22.%.%|DELETE HISTORY|G
+|root||chiarinotti|localhost|DELETE HISTORY|G
+|root||como|localhost|DELETE HISTORY|G
+|root||comolli|localhost|DELETE HISTORY|G
+|root||ettaher|localhost|DELETE HISTORY|G
+|root||ferraro|localhost|DELETE HISTORY|G
+|root||galbasini|localhost|DELETE HISTORY|G
+|root||gazzea|localhost|DELETE HISTORY|G
+|root||giani|localhost|DELETE HISTORY|G
+|root||kozemko|localhost|DELETE HISTORY|G
+|root||laterra|localhost|DELETE HISTORY|G
+|root||lattanzi|localhost|DELETE HISTORY|G
+|root||lavelli|localhost|DELETE HISTORY|G
+|root||linzas|localhost|DELETE HISTORY|G
+|root||lodi|localhost|DELETE HISTORY|G
+|root||martinetti|localhost|DELETE HISTORY|G
+|root||minuzzo|localhost|DELETE HISTORY|G
+|root||morga|localhost|DELETE HISTORY|G
+|root||mysql|localhost|DELETE HISTORY|G
+|root||pacella|localhost|DELETE HISTORY|G
+|root||protasio|localhost|DELETE HISTORY|G
+|root||ramoni|localhost|DELETE HISTORY|G
+|root||root|localhost|DELETE HISTORY|G
+|root||rosetta|localhost|DELETE HISTORY|G
+|root||sannino|localhost|DELETE HISTORY|G
+|root||sassi|localhost|DELETE HISTORY|G
+|root||sinacori|localhost|DELETE HISTORY|G
+|root||tagini|localhost|DELETE HISTORY|G
+|root||tarabella|localhost|DELETE HISTORY|G
+|root||tatti|localhost|DELETE HISTORY|G
+|root||utentedb|172.22.%.%|DELETE HISTORY|G
+|root||vellone|localhost|DELETE HISTORY|G
+|root||vidoni|localhost|DELETE HISTORY|G
+|root||virgilio|localhost|DELETE HISTORY|G
+|root||alvarez|localhost|DROP|G
+|root||angelo|localhost|DROP|G
+|root||bagnati|localhost|DROP|G
+|root||caretti|localhost|DROP|G
+|root||casalini|localhost|DROP|G
+|root||cassani|localhost|DROP|G
+|root||castelli|localhost|DROP|G
+|root||castiglioni|localhost|DROP|G
+|root||chiarinotti|172.22.%.%|DROP|G
+|root||chiarinotti|localhost|DROP|G
+|root||como|localhost|DROP|G
+|root||comolli|localhost|DROP|G
+|root||ettaher|localhost|DROP|G
+|root||ferraro|localhost|DROP|G
+|root||galbasini|localhost|DROP|G
+|root||gazzea|localhost|DROP|G
+|root||giani|localhost|DROP|G
+|root||kozemko|localhost|DROP|G
+|root||laterra|localhost|DROP|G
+|root||lattanzi|localhost|DROP|G
+|root||lavelli|localhost|DROP|G
+|root||linzas|localhost|DROP|G
+|root||lodi|localhost|DROP|G
+|root||martinetti|localhost|DROP|G
+|root||minuzzo|localhost|DROP|G
+|root||morga|localhost|DROP|G
+|root||mysql|localhost|DROP|G
+|root||pacella|localhost|DROP|G
+|root||protasio|localhost|DROP|G
+|root||ramoni|localhost|DROP|G
+|root||root|localhost|DROP|G
+|root||rosetta|localhost|DROP|G
+|root||sannino|localhost|DROP|G
+|root||sassi|localhost|DROP|G
+|root||sinacori|localhost|DROP|G
+|root||tagini|localhost|DROP|G
+|root||tarabella|localhost|DROP|G
+|root||tatti|localhost|DROP|G
+|root||utentedb|172.22.%.%|DROP|G
+|root||vellone|localhost|DROP|G
+|root||vidoni|localhost|DROP|G
+|root||virgilio|localhost|DROP|G
+|root||alvarez|localhost|EVENT|G
+|root||angelo|localhost|EVENT|G
+|root||bagnati|localhost|EVENT|G
+|root||caretti|localhost|EVENT|G
+|root||casalini|localhost|EVENT|G
+|root||cassani|localhost|EVENT|G
+|root||castelli|localhost|EVENT|G
+|root||castiglioni|localhost|EVENT|G
+|root||chiarinotti|172.22.%.%|EVENT|G
+|root||chiarinotti|localhost|EVENT|G
+|root||como|localhost|EVENT|G
+|root||comolli|localhost|EVENT|G
+|root||ettaher|localhost|EVENT|G
+|root||ferraro|localhost|EVENT|G
+|root||galbasini|localhost|EVENT|G
+|root||gazzea|localhost|EVENT|G
+|root||giani|localhost|EVENT|G
+|root||kozemko|localhost|EVENT|G
+|root||laterra|localhost|EVENT|G
+|root||lattanzi|localhost|EVENT|G
+|root||lavelli|localhost|EVENT|G
+|root||linzas|localhost|EVENT|G
+|root||lodi|localhost|EVENT|G
+|root||martinetti|localhost|EVENT|G
+|root||minuzzo|localhost|EVENT|G
+|root||morga|localhost|EVENT|G
+|root||mysql|localhost|EVENT|G
+|root||pacella|localhost|EVENT|G
+|root||protasio|localhost|EVENT|G
+|root||ramoni|localhost|EVENT|G
+|root||root|localhost|EVENT|G
+|root||rosetta|localhost|EVENT|G
+|root||sannino|localhost|EVENT|G
+|root||sassi|localhost|EVENT|G
+|root||sinacori|localhost|EVENT|G
+|root||tagini|localhost|EVENT|G
+|root||tarabella|localhost|EVENT|G
+|root||tatti|localhost|EVENT|G
+|root||utentedb|172.22.%.%|EVENT|G
+|root||vellone|localhost|EVENT|G
+|root||vidoni|localhost|EVENT|G
+|root||virgilio|localhost|EVENT|G
+|root||alvarez|localhost|EXECUTE|G
+|root||angelo|localhost|EXECUTE|G
+|root||bagnati|localhost|EXECUTE|G
+|root||caretti|localhost|EXECUTE|G
+|root||casalini|localhost|EXECUTE|G
+|root||cassani|localhost|EXECUTE|G
+|root||castelli|localhost|EXECUTE|G
+|root||castiglioni|localhost|EXECUTE|G
+|root||chiarinotti|172.22.%.%|EXECUTE|G
+|root||chiarinotti|localhost|EXECUTE|G
+|root||como|localhost|EXECUTE|G
+|root||comolli|localhost|EXECUTE|G
+|root||ettaher|localhost|EXECUTE|G
+|root||ferraro|localhost|EXECUTE|G
+|root||galbasini|localhost|EXECUTE|G
+|root||gazzea|localhost|EXECUTE|G
+|root||giani|localhost|EXECUTE|G
+|root||kozemko|localhost|EXECUTE|G
+|root||laterra|localhost|EXECUTE|G
+|root||lattanzi|localhost|EXECUTE|G
+|root||lavelli|localhost|EXECUTE|G
+|root||linzas|localhost|EXECUTE|G
+|root||lodi|localhost|EXECUTE|G
+|root||martinetti|localhost|EXECUTE|G
+|root||minuzzo|localhost|EXECUTE|G
+|root||morga|localhost|EXECUTE|G
+|root||mysql|localhost|EXECUTE|G
+|root||pacella|localhost|EXECUTE|G
+|root||protasio|localhost|EXECUTE|G
+|root||ramoni|localhost|EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||rosetta|localhost|EXECUTE|G
+|root||sannino|localhost|EXECUTE|G
+|root||sassi|localhost|EXECUTE|G
+|root||sinacori|localhost|EXECUTE|G
+|root||tagini|localhost|EXECUTE|G
+|root||tarabella|localhost|EXECUTE|G
+|root||tatti|localhost|EXECUTE|G
+|root||utentedb|172.22.%.%|EXECUTE|G
+|root||vellone|localhost|EXECUTE|G
+|root||vidoni|localhost|EXECUTE|G
+|root||virgilio|localhost|EXECUTE|G
+|root||alvarez|localhost|FEDERATED ADMIN|G
+|root||angelo|localhost|FEDERATED ADMIN|G
+|root||bagnati|localhost|FEDERATED ADMIN|G
+|root||caretti|localhost|FEDERATED ADMIN|G
+|root||casalini|localhost|FEDERATED ADMIN|G
+|root||cassani|localhost|FEDERATED ADMIN|G
+|root||castelli|localhost|FEDERATED ADMIN|G
+|root||castiglioni|localhost|FEDERATED ADMIN|G
+|root||chiarinotti|172.22.%.%|FEDERATED ADMIN|G
+|root||chiarinotti|localhost|FEDERATED ADMIN|G
+|root||como|localhost|FEDERATED ADMIN|G
+|root||comolli|localhost|FEDERATED ADMIN|G
+|root||ettaher|localhost|FEDERATED ADMIN|G
+|root||ferraro|localhost|FEDERATED ADMIN|G
+|root||galbasini|localhost|FEDERATED ADMIN|G
+|root||gazzea|localhost|FEDERATED ADMIN|G
+|root||giani|localhost|FEDERATED ADMIN|G
+|root||kozemko|localhost|FEDERATED ADMIN|G
+|root||laterra|localhost|FEDERATED ADMIN|G
+|root||lattanzi|localhost|FEDERATED ADMIN|G
+|root||lavelli|localhost|FEDERATED ADMIN|G
+|root||linzas|localhost|FEDERATED ADMIN|G
+|root||lodi|localhost|FEDERATED ADMIN|G
+|root||martinetti|localhost|FEDERATED ADMIN|G
+|root||minuzzo|localhost|FEDERATED ADMIN|G
+|root||morga|localhost|FEDERATED ADMIN|G
+|root||mysql|localhost|FEDERATED ADMIN|G
+|root||pacella|localhost|FEDERATED ADMIN|G
+|root||protasio|localhost|FEDERATED ADMIN|G
+|root||ramoni|localhost|FEDERATED ADMIN|G
+|root||root|localhost|FEDERATED ADMIN|G
+|root||rosetta|localhost|FEDERATED ADMIN|G
+|root||sannino|localhost|FEDERATED ADMIN|G
+|root||sassi|localhost|FEDERATED ADMIN|G
+|root||sinacori|localhost|FEDERATED ADMIN|G
+|root||tagini|localhost|FEDERATED ADMIN|G
+|root||tarabella|localhost|FEDERATED ADMIN|G
+|root||tatti|localhost|FEDERATED ADMIN|G
+|root||utentedb|172.22.%.%|FEDERATED ADMIN|G
+|root||vellone|localhost|FEDERATED ADMIN|G
+|root||vidoni|localhost|FEDERATED ADMIN|G
+|root||virgilio|localhost|FEDERATED ADMIN|G
+|root||alvarez|localhost|FILE|G
+|root||angelo|localhost|FILE|G
+|root||bagnati|localhost|FILE|G
+|root||caretti|localhost|FILE|G
+|root||casalini|localhost|FILE|G
+|root||cassani|localhost|FILE|G
+|root||castelli|localhost|FILE|G
+|root||castiglioni|localhost|FILE|G
+|root||chiarinotti|172.22.%.%|FILE|G
+|root||chiarinotti|localhost|FILE|G
+|root||como|localhost|FILE|G
+|root||comolli|localhost|FILE|G
+|root||ettaher|localhost|FILE|G
+|root||ferraro|localhost|FILE|G
+|root||galbasini|localhost|FILE|G
+|root||gazzea|localhost|FILE|G
+|root||giani|localhost|FILE|G
+|root||kozemko|localhost|FILE|G
+|root||laterra|localhost|FILE|G
+|root||lattanzi|localhost|FILE|G
+|root||lavelli|localhost|FILE|G
+|root||linzas|localhost|FILE|G
+|root||lodi|localhost|FILE|G
+|root||martinetti|localhost|FILE|G
+|root||minuzzo|localhost|FILE|G
+|root||morga|localhost|FILE|G
+|root||mysql|localhost|FILE|G
+|root||pacella|localhost|FILE|G
+|root||protasio|localhost|FILE|G
+|root||ramoni|localhost|FILE|G
+|root||root|localhost|FILE|G
+|root||rosetta|localhost|FILE|G
+|root||sannino|localhost|FILE|G
+|root||sassi|localhost|FILE|G
+|root||sinacori|localhost|FILE|G
+|root||tagini|localhost|FILE|G
+|root||tarabella|localhost|FILE|G
+|root||tatti|localhost|FILE|G
+|root||utentedb|172.22.%.%|FILE|G
+|root||vellone|localhost|FILE|G
+|root||vidoni|localhost|FILE|G
+|root||virgilio|localhost|FILE|G
+|root||alvarez|localhost|INDEX|G
+|root||angelo|localhost|INDEX|G
+|root||bagnati|localhost|INDEX|G
+|root||caretti|localhost|INDEX|G
+|root||casalini|localhost|INDEX|G
+|root||cassani|localhost|INDEX|G
+|root||castelli|localhost|INDEX|G
+|root||castiglioni|localhost|INDEX|G
+|root||chiarinotti|172.22.%.%|INDEX|G
+|root||chiarinotti|localhost|INDEX|G
+|root||como|localhost|INDEX|G
+|root||comolli|localhost|INDEX|G
+|root||ettaher|localhost|INDEX|G
+|root||ferraro|localhost|INDEX|G
+|root||galbasini|localhost|INDEX|G
+|root||gazzea|localhost|INDEX|G
+|root||giani|localhost|INDEX|G
+|root||kozemko|localhost|INDEX|G
+|root||laterra|localhost|INDEX|G
+|root||lattanzi|localhost|INDEX|G
+|root||lavelli|localhost|INDEX|G
+|root||linzas|localhost|INDEX|G
+|root||lodi|localhost|INDEX|G
+|root||martinetti|localhost|INDEX|G
+|root||minuzzo|localhost|INDEX|G
+|root||morga|localhost|INDEX|G
+|root||mysql|localhost|INDEX|G
+|root||pacella|localhost|INDEX|G
+|root||protasio|localhost|INDEX|G
+|root||ramoni|localhost|INDEX|G
+|root||root|localhost|INDEX|G
+|root||rosetta|localhost|INDEX|G
+|root||sannino|localhost|INDEX|G
+|root||sassi|localhost|INDEX|G
+|root||sinacori|localhost|INDEX|G
+|root||tagini|localhost|INDEX|G
+|root||tarabella|localhost|INDEX|G
+|root||tatti|localhost|INDEX|G
+|root||utentedb|172.22.%.%|INDEX|G
+|root||vellone|localhost|INDEX|G
+|root||vidoni|localhost|INDEX|G
+|root||virgilio|localhost|INDEX|G
+|root||alvarez|localhost|INSERT|G
+|root||angelo|localhost|INSERT|G
+|root||bagnati|localhost|INSERT|G
+|root||caretti|localhost|INSERT|G
+|root||casalini|localhost|INSERT|G
+|root||cassani|localhost|INSERT|G
+|root||castelli|localhost|INSERT|G
+|root||castiglioni|localhost|INSERT|G
+|root||chiarinotti|172.22.%.%|INSERT|G
+|root||chiarinotti|localhost|INSERT|G
+|root||como|localhost|INSERT|G
+|root||comolli|localhost|INSERT|G
+|root||ettaher|localhost|INSERT|G
+|root||ferraro|localhost|INSERT|G
+|root||galbasini|localhost|INSERT|G
+|root||gazzea|localhost|INSERT|G
+|root||giani|localhost|INSERT|G
+|root||kozemko|localhost|INSERT|G
+|root||laterra|localhost|INSERT|G
+|root||lattanzi|localhost|INSERT|G
+|root||lavelli|localhost|INSERT|G
+|root||linzas|localhost|INSERT|G
+|root||lodi|localhost|INSERT|G
+|root||martinetti|localhost|INSERT|G
+|root||minuzzo|localhost|INSERT|G
+|root||morga|localhost|INSERT|G
+|root||mysql|localhost|INSERT|G
+|root||pacella|localhost|INSERT|G
+|root||protasio|localhost|INSERT|G
+|root||ramoni|localhost|INSERT|G
+|root||root|localhost|INSERT|G
+|root||rosetta|localhost|INSERT|G
+|root||sannino|localhost|INSERT|G
+|root||sassi|localhost|INSERT|G
+|root||sinacori|localhost|INSERT|G
+|root||tagini|localhost|INSERT|G
+|root||tarabella|localhost|INSERT|G
+|root||tatti|localhost|INSERT|G
+|root||utentedb|172.22.%.%|INSERT|G
+|root||vellone|localhost|INSERT|G
+|root||vidoni|localhost|INSERT|G
+|root||virgilio|localhost|INSERT|G
+|root||alvarez|localhost|LOCK TABLES|G
+|root||angelo|localhost|LOCK TABLES|G
+|root||bagnati|localhost|LOCK TABLES|G
+|root||caretti|localhost|LOCK TABLES|G
+|root||casalini|localhost|LOCK TABLES|G
+|root||cassani|localhost|LOCK TABLES|G
+|root||castelli|localhost|LOCK TABLES|G
+|root||castiglioni|localhost|LOCK TABLES|G
+|root||chiarinotti|172.22.%.%|LOCK TABLES|G
+|root||chiarinotti|localhost|LOCK TABLES|G
+|root||como|localhost|LOCK TABLES|G
+|root||comolli|localhost|LOCK TABLES|G
+|root||ettaher|localhost|LOCK TABLES|G
+|root||ferraro|localhost|LOCK TABLES|G
+|root||galbasini|localhost|LOCK TABLES|G
+|root||gazzea|localhost|LOCK TABLES|G
+|root||giani|localhost|LOCK TABLES|G
+|root||kozemko|localhost|LOCK TABLES|G
+|root||laterra|localhost|LOCK TABLES|G
+|root||lattanzi|localhost|LOCK TABLES|G
+|root||lavelli|localhost|LOCK TABLES|G
+|root||linzas|localhost|LOCK TABLES|G
+|root||lodi|localhost|LOCK TABLES|G
+|root||martinetti|localhost|LOCK TABLES|G
+|root||minuzzo|localhost|LOCK TABLES|G
+|root||morga|localhost|LOCK TABLES|G
+|root||mysql|localhost|LOCK TABLES|G
+|root||pacella|localhost|LOCK TABLES|G
+|root||protasio|localhost|LOCK TABLES|G
+|root||ramoni|localhost|LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||rosetta|localhost|LOCK TABLES|G
+|root||sannino|localhost|LOCK TABLES|G
+|root||sassi|localhost|LOCK TABLES|G
+|root||sinacori|localhost|LOCK TABLES|G
+|root||tagini|localhost|LOCK TABLES|G
+|root||tarabella|localhost|LOCK TABLES|G
+|root||tatti|localhost|LOCK TABLES|G
+|root||utentedb|172.22.%.%|LOCK TABLES|G
+|root||vellone|localhost|LOCK TABLES|G
+|root||vidoni|localhost|LOCK TABLES|G
+|root||virgilio|localhost|LOCK TABLES|G
+|root||alvarez|localhost|PROCESS|G
+|root||angelo|localhost|PROCESS|G
+|root||bagnati|localhost|PROCESS|G
+|root||caretti|localhost|PROCESS|G
+|root||casalini|localhost|PROCESS|G
+|root||cassani|localhost|PROCESS|G
+|root||castelli|localhost|PROCESS|G
+|root||castiglioni|localhost|PROCESS|G
+|root||chiarinotti|172.22.%.%|PROCESS|G
+|root||chiarinotti|localhost|PROCESS|G
+|root||como|localhost|PROCESS|G
+|root||comolli|localhost|PROCESS|G
+|root||ettaher|localhost|PROCESS|G
+|root||ferraro|localhost|PROCESS|G
+|root||galbasini|localhost|PROCESS|G
+|root||gazzea|localhost|PROCESS|G
+|root||giani|localhost|PROCESS|G
+|root||kozemko|localhost|PROCESS|G
+|root||laterra|localhost|PROCESS|G
+|root||lattanzi|localhost|PROCESS|G
+|root||lavelli|localhost|PROCESS|G
+|root||linzas|localhost|PROCESS|G
+|root||lodi|localhost|PROCESS|G
+|root||martinetti|localhost|PROCESS|G
+|root||minuzzo|localhost|PROCESS|G
+|root||morga|localhost|PROCESS|G
+|root||mysql|localhost|PROCESS|G
+|root||pacella|localhost|PROCESS|G
+|root||protasio|localhost|PROCESS|G
+|root||ramoni|localhost|PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||rosetta|localhost|PROCESS|G
+|root||sannino|localhost|PROCESS|G
+|root||sassi|localhost|PROCESS|G
+|root||sinacori|localhost|PROCESS|G
+|root||tagini|localhost|PROCESS|G
+|root||tarabella|localhost|PROCESS|G
+|root||tatti|localhost|PROCESS|G
+|root||utentedb|172.22.%.%|PROCESS|G
+|root||vellone|localhost|PROCESS|G
+|root||vidoni|localhost|PROCESS|G
+|root||virgilio|localhost|PROCESS|G
+|root||alvarez|localhost|READ_ONLY ADMIN|G
+|root||angelo|localhost|READ_ONLY ADMIN|G
+|root||bagnati|localhost|READ_ONLY ADMIN|G
+|root||caretti|localhost|READ_ONLY ADMIN|G
+|root||casalini|localhost|READ_ONLY ADMIN|G
+|root||cassani|localhost|READ_ONLY ADMIN|G
+|root||castelli|localhost|READ_ONLY ADMIN|G
+|root||castiglioni|localhost|READ_ONLY ADMIN|G
+|root||chiarinotti|172.22.%.%|READ_ONLY ADMIN|G
+|root||chiarinotti|localhost|READ_ONLY ADMIN|G
+|root||como|localhost|READ_ONLY ADMIN|G
+|root||comolli|localhost|READ_ONLY ADMIN|G
+|root||ettaher|localhost|READ_ONLY ADMIN|G
+|root||ferraro|localhost|READ_ONLY ADMIN|G
+|root||galbasini|localhost|READ_ONLY ADMIN|G
+|root||gazzea|localhost|READ_ONLY ADMIN|G
+|root||giani|localhost|READ_ONLY ADMIN|G
+|root||kozemko|localhost|READ_ONLY ADMIN|G
+|root||laterra|localhost|READ_ONLY ADMIN|G
+|root||lattanzi|localhost|READ_ONLY ADMIN|G
+|root||lavelli|localhost|READ_ONLY ADMIN|G
+|root||linzas|localhost|READ_ONLY ADMIN|G
+|root||lodi|localhost|READ_ONLY ADMIN|G
+|root||martinetti|localhost|READ_ONLY ADMIN|G
+|root||minuzzo|localhost|READ_ONLY ADMIN|G
+|root||morga|localhost|READ_ONLY ADMIN|G
+|root||mysql|localhost|READ_ONLY ADMIN|G
+|root||pacella|localhost|READ_ONLY ADMIN|G
+|root||protasio|localhost|READ_ONLY ADMIN|G
+|root||ramoni|localhost|READ_ONLY ADMIN|G
+|root||root|localhost|READ_ONLY ADMIN|G
+|root||rosetta|localhost|READ_ONLY ADMIN|G
+|root||sannino|localhost|READ_ONLY ADMIN|G
+|root||sassi|localhost|READ_ONLY ADMIN|G
+|root||sinacori|localhost|READ_ONLY ADMIN|G
+|root||tagini|localhost|READ_ONLY ADMIN|G
+|root||tarabella|localhost|READ_ONLY ADMIN|G
+|root||tatti|localhost|READ_ONLY ADMIN|G
+|root||utentedb|172.22.%.%|READ_ONLY ADMIN|G
+|root||vellone|localhost|READ_ONLY ADMIN|G
+|root||vidoni|localhost|READ_ONLY ADMIN|G
+|root||virgilio|localhost|READ_ONLY ADMIN|G
+|root||alvarez|localhost|REFERENCES|G
+|root||angelo|localhost|REFERENCES|G
+|root||bagnati|localhost|REFERENCES|G
+|root||caretti|localhost|REFERENCES|G
+|root||casalini|localhost|REFERENCES|G
+|root||cassani|localhost|REFERENCES|G
+|root||castelli|localhost|REFERENCES|G
+|root||castiglioni|localhost|REFERENCES|G
+|root||chiarinotti|172.22.%.%|REFERENCES|G
+|root||chiarinotti|localhost|REFERENCES|G
+|root||como|localhost|REFERENCES|G
+|root||comolli|localhost|REFERENCES|G
+|root||ettaher|localhost|REFERENCES|G
+|root||ferraro|localhost|REFERENCES|G
+|root||galbasini|localhost|REFERENCES|G
+|root||gazzea|localhost|REFERENCES|G
+|root||giani|localhost|REFERENCES|G
+|root||kozemko|localhost|REFERENCES|G
+|root||laterra|localhost|REFERENCES|G
+|root||lattanzi|localhost|REFERENCES|G
+|root||lavelli|localhost|REFERENCES|G
+|root||linzas|localhost|REFERENCES|G
+|root||lodi|localhost|REFERENCES|G
+|root||martinetti|localhost|REFERENCES|G
+|root||minuzzo|localhost|REFERENCES|G
+|root||morga|localhost|REFERENCES|G
+|root||mysql|localhost|REFERENCES|G
+|root||pacella|localhost|REFERENCES|G
+|root||protasio|localhost|REFERENCES|G
+|root||ramoni|localhost|REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||rosetta|localhost|REFERENCES|G
+|root||sannino|localhost|REFERENCES|G
+|root||sassi|localhost|REFERENCES|G
+|root||sinacori|localhost|REFERENCES|G
+|root||tagini|localhost|REFERENCES|G
+|root||tarabella|localhost|REFERENCES|G
+|root||tatti|localhost|REFERENCES|G
+|root||utentedb|172.22.%.%|REFERENCES|G
+|root||vellone|localhost|REFERENCES|G
+|root||vidoni|localhost|REFERENCES|G
+|root||virgilio|localhost|REFERENCES|G
+|root||alvarez|localhost|RELOAD|G
+|root||angelo|localhost|RELOAD|G
+|root||bagnati|localhost|RELOAD|G
+|root||caretti|localhost|RELOAD|G
+|root||casalini|localhost|RELOAD|G
+|root||cassani|localhost|RELOAD|G
+|root||castelli|localhost|RELOAD|G
+|root||castiglioni|localhost|RELOAD|G
+|root||chiarinotti|172.22.%.%|RELOAD|G
+|root||chiarinotti|localhost|RELOAD|G
+|root||como|localhost|RELOAD|G
+|root||comolli|localhost|RELOAD|G
+|root||ettaher|localhost|RELOAD|G
+|root||ferraro|localhost|RELOAD|G
+|root||galbasini|localhost|RELOAD|G
+|root||gazzea|localhost|RELOAD|G
+|root||giani|localhost|RELOAD|G
+|root||kozemko|localhost|RELOAD|G
+|root||laterra|localhost|RELOAD|G
+|root||lattanzi|localhost|RELOAD|G
+|root||lavelli|localhost|RELOAD|G
+|root||linzas|localhost|RELOAD|G
+|root||lodi|localhost|RELOAD|G
+|root||martinetti|localhost|RELOAD|G
+|root||minuzzo|localhost|RELOAD|G
+|root||morga|localhost|RELOAD|G
+|root||mysql|localhost|RELOAD|G
+|root||pacella|localhost|RELOAD|G
+|root||protasio|localhost|RELOAD|G
+|root||ramoni|localhost|RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||rosetta|localhost|RELOAD|G
+|root||sannino|localhost|RELOAD|G
+|root||sassi|localhost|RELOAD|G
+|root||sinacori|localhost|RELOAD|G
+|root||tagini|localhost|RELOAD|G
+|root||tarabella|localhost|RELOAD|G
+|root||tatti|localhost|RELOAD|G
+|root||utentedb|172.22.%.%|RELOAD|G
+|root||vellone|localhost|RELOAD|G
+|root||vidoni|localhost|RELOAD|G
+|root||virgilio|localhost|RELOAD|G
+|root||alvarez|localhost|REPLICATION MASTER ADMIN|G
+|root||angelo|localhost|REPLICATION MASTER ADMIN|G
+|root||bagnati|localhost|REPLICATION MASTER ADMIN|G
+|root||caretti|localhost|REPLICATION MASTER ADMIN|G
+|root||casalini|localhost|REPLICATION MASTER ADMIN|G
+|root||cassani|localhost|REPLICATION MASTER ADMIN|G
+|root||castelli|localhost|REPLICATION MASTER ADMIN|G
+|root||castiglioni|localhost|REPLICATION MASTER ADMIN|G
+|root||chiarinotti|172.22.%.%|REPLICATION MASTER ADMIN|G
+|root||chiarinotti|localhost|REPLICATION MASTER ADMIN|G
+|root||como|localhost|REPLICATION MASTER ADMIN|G
+|root||comolli|localhost|REPLICATION MASTER ADMIN|G
+|root||ettaher|localhost|REPLICATION MASTER ADMIN|G
+|root||ferraro|localhost|REPLICATION MASTER ADMIN|G
+|root||galbasini|localhost|REPLICATION MASTER ADMIN|G
+|root||gazzea|localhost|REPLICATION MASTER ADMIN|G
+|root||giani|localhost|REPLICATION MASTER ADMIN|G
+|root||kozemko|localhost|REPLICATION MASTER ADMIN|G
+|root||laterra|localhost|REPLICATION MASTER ADMIN|G
+|root||lattanzi|localhost|REPLICATION MASTER ADMIN|G
+|root||lavelli|localhost|REPLICATION MASTER ADMIN|G
+|root||linzas|localhost|REPLICATION MASTER ADMIN|G
+|root||lodi|localhost|REPLICATION MASTER ADMIN|G
+|root||martinetti|localhost|REPLICATION MASTER ADMIN|G
+|root||minuzzo|localhost|REPLICATION MASTER ADMIN|G
+|root||morga|localhost|REPLICATION MASTER ADMIN|G
+|root||mysql|localhost|REPLICATION MASTER ADMIN|G
+|root||pacella|localhost|REPLICATION MASTER ADMIN|G
+|root||protasio|localhost|REPLICATION MASTER ADMIN|G
+|root||ramoni|localhost|REPLICATION MASTER ADMIN|G
+|root||root|localhost|REPLICATION MASTER ADMIN|G
+|root||rosetta|localhost|REPLICATION MASTER ADMIN|G
+|root||sannino|localhost|REPLICATION MASTER ADMIN|G
+|root||sassi|localhost|REPLICATION MASTER ADMIN|G
+|root||sinacori|localhost|REPLICATION MASTER ADMIN|G
+|root||tagini|localhost|REPLICATION MASTER ADMIN|G
+|root||tarabella|localhost|REPLICATION MASTER ADMIN|G
+|root||tatti|localhost|REPLICATION MASTER ADMIN|G
+|root||utentedb|172.22.%.%|REPLICATION MASTER ADMIN|G
+|root||vellone|localhost|REPLICATION MASTER ADMIN|G
+|root||vidoni|localhost|REPLICATION MASTER ADMIN|G
+|root||virgilio|localhost|REPLICATION MASTER ADMIN|G
+|root||alvarez|localhost|REPLICATION SLAVE|G
+|root||angelo|localhost|REPLICATION SLAVE|G
+|root||bagnati|localhost|REPLICATION SLAVE|G
+|root||caretti|localhost|REPLICATION SLAVE|G
+|root||casalini|localhost|REPLICATION SLAVE|G
+|root||cassani|localhost|REPLICATION SLAVE|G
+|root||castelli|localhost|REPLICATION SLAVE|G
+|root||castiglioni|localhost|REPLICATION SLAVE|G
+|root||chiarinotti|172.22.%.%|REPLICATION SLAVE|G
+|root||chiarinotti|localhost|REPLICATION SLAVE|G
+|root||como|localhost|REPLICATION SLAVE|G
+|root||comolli|localhost|REPLICATION SLAVE|G
+|root||ettaher|localhost|REPLICATION SLAVE|G
+|root||ferraro|localhost|REPLICATION SLAVE|G
+|root||galbasini|localhost|REPLICATION SLAVE|G
+|root||gazzea|localhost|REPLICATION SLAVE|G
+|root||giani|localhost|REPLICATION SLAVE|G
+|root||kozemko|localhost|REPLICATION SLAVE|G
+|root||laterra|localhost|REPLICATION SLAVE|G
+|root||lattanzi|localhost|REPLICATION SLAVE|G
+|root||lavelli|localhost|REPLICATION SLAVE|G
+|root||linzas|localhost|REPLICATION SLAVE|G
+|root||lodi|localhost|REPLICATION SLAVE|G
+|root||martinetti|localhost|REPLICATION SLAVE|G
+|root||minuzzo|localhost|REPLICATION SLAVE|G
+|root||morga|localhost|REPLICATION SLAVE|G
+|root||mysql|localhost|REPLICATION SLAVE|G
+|root||pacella|localhost|REPLICATION SLAVE|G
+|root||protasio|localhost|REPLICATION SLAVE|G
+|root||ramoni|localhost|REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||rosetta|localhost|REPLICATION SLAVE|G
+|root||sannino|localhost|REPLICATION SLAVE|G
+|root||sassi|localhost|REPLICATION SLAVE|G
+|root||sinacori|localhost|REPLICATION SLAVE|G
+|root||tagini|localhost|REPLICATION SLAVE|G
+|root||tarabella|localhost|REPLICATION SLAVE|G
+|root||tatti|localhost|REPLICATION SLAVE|G
+|root||utentedb|172.22.%.%|REPLICATION SLAVE|G
+|root||vellone|localhost|REPLICATION SLAVE|G
+|root||vidoni|localhost|REPLICATION SLAVE|G
+|root||virgilio|localhost|REPLICATION SLAVE|G
+|root||alvarez|localhost|REPLICATION SLAVE ADMIN|G
+|root||angelo|localhost|REPLICATION SLAVE ADMIN|G
+|root||bagnati|localhost|REPLICATION SLAVE ADMIN|G
+|root||caretti|localhost|REPLICATION SLAVE ADMIN|G
+|root||casalini|localhost|REPLICATION SLAVE ADMIN|G
+|root||cassani|localhost|REPLICATION SLAVE ADMIN|G
+|root||castelli|localhost|REPLICATION SLAVE ADMIN|G
+|root||castiglioni|localhost|REPLICATION SLAVE ADMIN|G
+|root||chiarinotti|172.22.%.%|REPLICATION SLAVE ADMIN|G
+|root||chiarinotti|localhost|REPLICATION SLAVE ADMIN|G
+|root||como|localhost|REPLICATION SLAVE ADMIN|G
+|root||comolli|localhost|REPLICATION SLAVE ADMIN|G
+|root||ettaher|localhost|REPLICATION SLAVE ADMIN|G
+|root||ferraro|localhost|REPLICATION SLAVE ADMIN|G
+|root||galbasini|localhost|REPLICATION SLAVE ADMIN|G
+|root||gazzea|localhost|REPLICATION SLAVE ADMIN|G
+|root||giani|localhost|REPLICATION SLAVE ADMIN|G
+|root||kozemko|localhost|REPLICATION SLAVE ADMIN|G
+|root||laterra|localhost|REPLICATION SLAVE ADMIN|G
+|root||lattanzi|localhost|REPLICATION SLAVE ADMIN|G
+|root||lavelli|localhost|REPLICATION SLAVE ADMIN|G
+|root||linzas|localhost|REPLICATION SLAVE ADMIN|G
+|root||lodi|localhost|REPLICATION SLAVE ADMIN|G
+|root||martinetti|localhost|REPLICATION SLAVE ADMIN|G
+|root||minuzzo|localhost|REPLICATION SLAVE ADMIN|G
+|root||morga|localhost|REPLICATION SLAVE ADMIN|G
+|root||mysql|localhost|REPLICATION SLAVE ADMIN|G
+|root||pacella|localhost|REPLICATION SLAVE ADMIN|G
+|root||protasio|localhost|REPLICATION SLAVE ADMIN|G
+|root||ramoni|localhost|REPLICATION SLAVE ADMIN|G
+|root||root|localhost|REPLICATION SLAVE ADMIN|G
+|root||rosetta|localhost|REPLICATION SLAVE ADMIN|G
+|root||sannino|localhost|REPLICATION SLAVE ADMIN|G
+|root||sassi|localhost|REPLICATION SLAVE ADMIN|G
+|root||sinacori|localhost|REPLICATION SLAVE ADMIN|G
+|root||tagini|localhost|REPLICATION SLAVE ADMIN|G
+|root||tarabella|localhost|REPLICATION SLAVE ADMIN|G
+|root||tatti|localhost|REPLICATION SLAVE ADMIN|G
+|root||utentedb|172.22.%.%|REPLICATION SLAVE ADMIN|G
+|root||vellone|localhost|REPLICATION SLAVE ADMIN|G
+|root||vidoni|localhost|REPLICATION SLAVE ADMIN|G
+|root||virgilio|localhost|REPLICATION SLAVE ADMIN|G
+|root||alvarez|localhost|SELECT|G
+|root||angelo|localhost|SELECT|G
+|root||bagnati|localhost|SELECT|G
+|root||caretti|localhost|SELECT|G
+|root||casalini|localhost|SELECT|G
+|root||cassani|localhost|SELECT|G
+|root||castelli|localhost|SELECT|G
+|root||castiglioni|localhost|SELECT|G
+|root||chiarinotti|172.22.%.%|SELECT|G
+|root||chiarinotti|localhost|SELECT|G
+|root||como|localhost|SELECT|G
+|root||comolli|localhost|SELECT|G
+|root||ettaher|localhost|SELECT|G
+|root||ferraro|localhost|SELECT|G
+|root||galbasini|localhost|SELECT|G
+|root||gazzea|localhost|SELECT|G
+|root||giani|localhost|SELECT|G
+|root||kozemko|localhost|SELECT|G
+|root||laterra|localhost|SELECT|G
+|root||lattanzi|localhost|SELECT|G
+|root||lavelli|localhost|SELECT|G
+|root||linzas|localhost|SELECT|G
+|root||lodi|localhost|SELECT|G
+|root||martinetti|localhost|SELECT|G
+|root||minuzzo|localhost|SELECT|G
+|root||morga|localhost|SELECT|G
+|root||mysql|localhost|SELECT|G
+|root||pacella|localhost|SELECT|G
+|root||protasio|localhost|SELECT|G
+|root||ramoni|localhost|SELECT|G
+|root||root|localhost|SELECT|G
+|root||rosetta|localhost|SELECT|G
+|root||sannino|localhost|SELECT|G
+|root||sassi|localhost|SELECT|G
+|root||sinacori|localhost|SELECT|G
+|root||tagini|localhost|SELECT|G
+|root||tarabella|localhost|SELECT|G
+|root||tatti|localhost|SELECT|G
+|root||utentedb|172.22.%.%|SELECT|G
+|root||vellone|localhost|SELECT|G
+|root||vidoni|localhost|SELECT|G
+|root||virgilio|localhost|SELECT|G
+|root||alvarez|localhost|SET USER|G
+|root||angelo|localhost|SET USER|G
+|root||bagnati|localhost|SET USER|G
+|root||caretti|localhost|SET USER|G
+|root||casalini|localhost|SET USER|G
+|root||cassani|localhost|SET USER|G
+|root||castelli|localhost|SET USER|G
+|root||castiglioni|localhost|SET USER|G
+|root||chiarinotti|172.22.%.%|SET USER|G
+|root||chiarinotti|localhost|SET USER|G
+|root||como|localhost|SET USER|G
+|root||comolli|localhost|SET USER|G
+|root||ettaher|localhost|SET USER|G
+|root||ferraro|localhost|SET USER|G
+|root||galbasini|localhost|SET USER|G
+|root||gazzea|localhost|SET USER|G
+|root||giani|localhost|SET USER|G
+|root||kozemko|localhost|SET USER|G
+|root||laterra|localhost|SET USER|G
+|root||lattanzi|localhost|SET USER|G
+|root||lavelli|localhost|SET USER|G
+|root||linzas|localhost|SET USER|G
+|root||lodi|localhost|SET USER|G
+|root||martinetti|localhost|SET USER|G
+|root||minuzzo|localhost|SET USER|G
+|root||morga|localhost|SET USER|G
+|root||mysql|localhost|SET USER|G
+|root||pacella|localhost|SET USER|G
+|root||protasio|localhost|SET USER|G
+|root||ramoni|localhost|SET USER|G
+|root||root|localhost|SET USER|G
+|root||rosetta|localhost|SET USER|G
+|root||sannino|localhost|SET USER|G
+|root||sassi|localhost|SET USER|G
+|root||sinacori|localhost|SET USER|G
+|root||tagini|localhost|SET USER|G
+|root||tarabella|localhost|SET USER|G
+|root||tatti|localhost|SET USER|G
+|root||utentedb|172.22.%.%|SET USER|G
+|root||vellone|localhost|SET USER|G
+|root||vidoni|localhost|SET USER|G
+|root||virgilio|localhost|SET USER|G
+|root||alvarez|localhost|SHOW DATABASES|G
+|root||angelo|localhost|SHOW DATABASES|G
+|root||bagnati|localhost|SHOW DATABASES|G
+|root||caretti|localhost|SHOW DATABASES|G
+|root||casalini|localhost|SHOW DATABASES|G
+|root||cassani|localhost|SHOW DATABASES|G
+|root||castelli|localhost|SHOW DATABASES|G
+|root||castiglioni|localhost|SHOW DATABASES|G
+|root||chiarinotti|172.22.%.%|SHOW DATABASES|G
+|root||chiarinotti|localhost|SHOW DATABASES|G
+|root||como|localhost|SHOW DATABASES|G
+|root||comolli|localhost|SHOW DATABASES|G
+|root||ettaher|localhost|SHOW DATABASES|G
+|root||ferraro|localhost|SHOW DATABASES|G
+|root||galbasini|localhost|SHOW DATABASES|G
+|root||gazzea|localhost|SHOW DATABASES|G
+|root||giani|localhost|SHOW DATABASES|G
+|root||kozemko|localhost|SHOW DATABASES|G
+|root||laterra|localhost|SHOW DATABASES|G
+|root||lattanzi|localhost|SHOW DATABASES|G
+|root||lavelli|localhost|SHOW DATABASES|G
+|root||linzas|localhost|SHOW DATABASES|G
+|root||lodi|localhost|SHOW DATABASES|G
+|root||martinetti|localhost|SHOW DATABASES|G
+|root||minuzzo|localhost|SHOW DATABASES|G
+|root||morga|localhost|SHOW DATABASES|G
+|root||mysql|localhost|SHOW DATABASES|G
+|root||pacella|localhost|SHOW DATABASES|G
+|root||protasio|localhost|SHOW DATABASES|G
+|root||ramoni|localhost|SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||rosetta|localhost|SHOW DATABASES|G
+|root||sannino|localhost|SHOW DATABASES|G
+|root||sassi|localhost|SHOW DATABASES|G
+|root||sinacori|localhost|SHOW DATABASES|G
+|root||tagini|localhost|SHOW DATABASES|G
+|root||tarabella|localhost|SHOW DATABASES|G
+|root||tatti|localhost|SHOW DATABASES|G
+|root||utentedb|172.22.%.%|SHOW DATABASES|G
+|root||vellone|localhost|SHOW DATABASES|G
+|root||vidoni|localhost|SHOW DATABASES|G
+|root||virgilio|localhost|SHOW DATABASES|G
+|root||alvarez|localhost|SHOW VIEW|G
+|root||angelo|localhost|SHOW VIEW|G
+|root||bagnati|localhost|SHOW VIEW|G
+|root||caretti|localhost|SHOW VIEW|G
+|root||casalini|localhost|SHOW VIEW|G
+|root||cassani|localhost|SHOW VIEW|G
+|root||castelli|localhost|SHOW VIEW|G
+|root||castiglioni|localhost|SHOW VIEW|G
+|root||chiarinotti|172.22.%.%|SHOW VIEW|G
+|root||chiarinotti|localhost|SHOW VIEW|G
+|root||como|localhost|SHOW VIEW|G
+|root||comolli|localhost|SHOW VIEW|G
+|root||ettaher|localhost|SHOW VIEW|G
+|root||ferraro|localhost|SHOW VIEW|G
+|root||galbasini|localhost|SHOW VIEW|G
+|root||gazzea|localhost|SHOW VIEW|G
+|root||giani|localhost|SHOW VIEW|G
+|root||kozemko|localhost|SHOW VIEW|G
+|root||laterra|localhost|SHOW VIEW|G
+|root||lattanzi|localhost|SHOW VIEW|G
+|root||lavelli|localhost|SHOW VIEW|G
+|root||linzas|localhost|SHOW VIEW|G
+|root||lodi|localhost|SHOW VIEW|G
+|root||martinetti|localhost|SHOW VIEW|G
+|root||minuzzo|localhost|SHOW VIEW|G
+|root||morga|localhost|SHOW VIEW|G
+|root||mysql|localhost|SHOW VIEW|G
+|root||pacella|localhost|SHOW VIEW|G
+|root||protasio|localhost|SHOW VIEW|G
+|root||ramoni|localhost|SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||rosetta|localhost|SHOW VIEW|G
+|root||sannino|localhost|SHOW VIEW|G
+|root||sassi|localhost|SHOW VIEW|G
+|root||sinacori|localhost|SHOW VIEW|G
+|root||tagini|localhost|SHOW VIEW|G
+|root||tarabella|localhost|SHOW VIEW|G
+|root||tatti|localhost|SHOW VIEW|G
+|root||utentedb|172.22.%.%|SHOW VIEW|G
+|root||vellone|localhost|SHOW VIEW|G
+|root||vidoni|localhost|SHOW VIEW|G
+|root||virgilio|localhost|SHOW VIEW|G
+|root||alvarez|localhost|SHUTDOWN|G
+|root||angelo|localhost|SHUTDOWN|G
+|root||bagnati|localhost|SHUTDOWN|G
+|root||caretti|localhost|SHUTDOWN|G
+|root||casalini|localhost|SHUTDOWN|G
+|root||cassani|localhost|SHUTDOWN|G
+|root||castelli|localhost|SHUTDOWN|G
+|root||castiglioni|localhost|SHUTDOWN|G
+|root||chiarinotti|172.22.%.%|SHUTDOWN|G
+|root||chiarinotti|localhost|SHUTDOWN|G
+|root||como|localhost|SHUTDOWN|G
+|root||comolli|localhost|SHUTDOWN|G
+|root||ettaher|localhost|SHUTDOWN|G
+|root||ferraro|localhost|SHUTDOWN|G
+|root||galbasini|localhost|SHUTDOWN|G
+|root||gazzea|localhost|SHUTDOWN|G
+|root||giani|localhost|SHUTDOWN|G
+|root||kozemko|localhost|SHUTDOWN|G
+|root||laterra|localhost|SHUTDOWN|G
+|root||lattanzi|localhost|SHUTDOWN|G
+|root||lavelli|localhost|SHUTDOWN|G
+|root||linzas|localhost|SHUTDOWN|G
+|root||lodi|localhost|SHUTDOWN|G
+|root||martinetti|localhost|SHUTDOWN|G
+|root||minuzzo|localhost|SHUTDOWN|G
+|root||morga|localhost|SHUTDOWN|G
+|root||mysql|localhost|SHUTDOWN|G
+|root||pacella|localhost|SHUTDOWN|G
+|root||protasio|localhost|SHUTDOWN|G
+|root||ramoni|localhost|SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||rosetta|localhost|SHUTDOWN|G
+|root||sannino|localhost|SHUTDOWN|G
+|root||sassi|localhost|SHUTDOWN|G
+|root||sinacori|localhost|SHUTDOWN|G
+|root||tagini|localhost|SHUTDOWN|G
+|root||tarabella|localhost|SHUTDOWN|G
+|root||tatti|localhost|SHUTDOWN|G
+|root||utentedb|172.22.%.%|SHUTDOWN|G
+|root||vellone|localhost|SHUTDOWN|G
+|root||vidoni|localhost|SHUTDOWN|G
+|root||virgilio|localhost|SHUTDOWN|G
+|root||alvarez|localhost|SLAVE MONITOR|G
+|root||angelo|localhost|SLAVE MONITOR|G
+|root||bagnati|localhost|SLAVE MONITOR|G
+|root||caretti|localhost|SLAVE MONITOR|G
+|root||casalini|localhost|SLAVE MONITOR|G
+|root||cassani|localhost|SLAVE MONITOR|G
+|root||castelli|localhost|SLAVE MONITOR|G
+|root||castiglioni|localhost|SLAVE MONITOR|G
+|root||chiarinotti|172.22.%.%|SLAVE MONITOR|G
+|root||chiarinotti|localhost|SLAVE MONITOR|G
+|root||como|localhost|SLAVE MONITOR|G
+|root||comolli|localhost|SLAVE MONITOR|G
+|root||ettaher|localhost|SLAVE MONITOR|G
+|root||ferraro|localhost|SLAVE MONITOR|G
+|root||galbasini|localhost|SLAVE MONITOR|G
+|root||gazzea|localhost|SLAVE MONITOR|G
+|root||giani|localhost|SLAVE MONITOR|G
+|root||kozemko|localhost|SLAVE MONITOR|G
+|root||laterra|localhost|SLAVE MONITOR|G
+|root||lattanzi|localhost|SLAVE MONITOR|G
+|root||lavelli|localhost|SLAVE MONITOR|G
+|root||linzas|localhost|SLAVE MONITOR|G
+|root||lodi|localhost|SLAVE MONITOR|G
+|root||martinetti|localhost|SLAVE MONITOR|G
+|root||minuzzo|localhost|SLAVE MONITOR|G
+|root||morga|localhost|SLAVE MONITOR|G
+|root||mysql|localhost|SLAVE MONITOR|G
+|root||pacella|localhost|SLAVE MONITOR|G
+|root||protasio|localhost|SLAVE MONITOR|G
+|root||ramoni|localhost|SLAVE MONITOR|G
+|root||root|localhost|SLAVE MONITOR|G
+|root||rosetta|localhost|SLAVE MONITOR|G
+|root||sannino|localhost|SLAVE MONITOR|G
+|root||sassi|localhost|SLAVE MONITOR|G
+|root||sinacori|localhost|SLAVE MONITOR|G
+|root||tagini|localhost|SLAVE MONITOR|G
+|root||tarabella|localhost|SLAVE MONITOR|G
+|root||tatti|localhost|SLAVE MONITOR|G
+|root||utentedb|172.22.%.%|SLAVE MONITOR|G
+|root||vellone|localhost|SLAVE MONITOR|G
+|root||vidoni|localhost|SLAVE MONITOR|G
+|root||virgilio|localhost|SLAVE MONITOR|G
+|root||alvarez|localhost|SUPER|G
+|root||angelo|localhost|SUPER|G
+|root||bagnati|localhost|SUPER|G
+|root||caretti|localhost|SUPER|G
+|root||casalini|localhost|SUPER|G
+|root||cassani|localhost|SUPER|G
+|root||castelli|localhost|SUPER|G
+|root||castiglioni|localhost|SUPER|G
+|root||chiarinotti|172.22.%.%|SUPER|G
+|root||chiarinotti|localhost|SUPER|G
+|root||como|localhost|SUPER|G
+|root||comolli|localhost|SUPER|G
+|root||ettaher|localhost|SUPER|G
+|root||ferraro|localhost|SUPER|G
+|root||galbasini|localhost|SUPER|G
+|root||gazzea|localhost|SUPER|G
+|root||giani|localhost|SUPER|G
+|root||kozemko|localhost|SUPER|G
+|root||laterra|localhost|SUPER|G
+|root||lattanzi|localhost|SUPER|G
+|root||lavelli|localhost|SUPER|G
+|root||linzas|localhost|SUPER|G
+|root||lodi|localhost|SUPER|G
+|root||martinetti|localhost|SUPER|G
+|root||minuzzo|localhost|SUPER|G
+|root||morga|localhost|SUPER|G
+|root||mysql|localhost|SUPER|G
+|root||pacella|localhost|SUPER|G
+|root||protasio|localhost|SUPER|G
+|root||ramoni|localhost|SUPER|G
+|root||root|localhost|SUPER|G
+|root||rosetta|localhost|SUPER|G
+|root||sannino|localhost|SUPER|G
+|root||sassi|localhost|SUPER|G
+|root||sinacori|localhost|SUPER|G
+|root||tagini|localhost|SUPER|G
+|root||tarabella|localhost|SUPER|G
+|root||tatti|localhost|SUPER|G
+|root||utentedb|172.22.%.%|SUPER|G
+|root||vellone|localhost|SUPER|G
+|root||vidoni|localhost|SUPER|G
+|root||virgilio|localhost|SUPER|G
+|root||alvarez|localhost|TRIGGER|G
+|root||angelo|localhost|TRIGGER|G
+|root||bagnati|localhost|TRIGGER|G
+|root||caretti|localhost|TRIGGER|G
+|root||casalini|localhost|TRIGGER|G
+|root||cassani|localhost|TRIGGER|G
+|root||castelli|localhost|TRIGGER|G
+|root||castiglioni|localhost|TRIGGER|G
+|root||chiarinotti|172.22.%.%|TRIGGER|G
+|root||chiarinotti|localhost|TRIGGER|G
+|root||como|localhost|TRIGGER|G
+|root||comolli|localhost|TRIGGER|G
+|root||ettaher|localhost|TRIGGER|G
+|root||ferraro|localhost|TRIGGER|G
+|root||galbasini|localhost|TRIGGER|G
+|root||gazzea|localhost|TRIGGER|G
+|root||giani|localhost|TRIGGER|G
+|root||kozemko|localhost|TRIGGER|G
+|root||laterra|localhost|TRIGGER|G
+|root||lattanzi|localhost|TRIGGER|G
+|root||lavelli|localhost|TRIGGER|G
+|root||linzas|localhost|TRIGGER|G
+|root||lodi|localhost|TRIGGER|G
+|root||martinetti|localhost|TRIGGER|G
+|root||minuzzo|localhost|TRIGGER|G
+|root||morga|localhost|TRIGGER|G
+|root||mysql|localhost|TRIGGER|G
+|root||pacella|localhost|TRIGGER|G
+|root||protasio|localhost|TRIGGER|G
+|root||ramoni|localhost|TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||rosetta|localhost|TRIGGER|G
+|root||sannino|localhost|TRIGGER|G
+|root||sassi|localhost|TRIGGER|G
+|root||sinacori|localhost|TRIGGER|G
+|root||tagini|localhost|TRIGGER|G
+|root||tarabella|localhost|TRIGGER|G
+|root||tatti|localhost|TRIGGER|G
+|root||utentedb|172.22.%.%|TRIGGER|G
+|root||vellone|localhost|TRIGGER|G
+|root||vidoni|localhost|TRIGGER|G
+|root||virgilio|localhost|TRIGGER|G
+|root||alvarez|localhost|UPDATE|G
+|root||angelo|localhost|UPDATE|G
+|root||bagnati|localhost|UPDATE|G
+|root||caretti|localhost|UPDATE|G
+|root||casalini|localhost|UPDATE|G
+|root||cassani|localhost|UPDATE|G
+|root||castelli|localhost|UPDATE|G
+|root||castiglioni|localhost|UPDATE|G
+|root||chiarinotti|172.22.%.%|UPDATE|G
+|root||chiarinotti|localhost|UPDATE|G
+|root||como|localhost|UPDATE|G
+|root||comolli|localhost|UPDATE|G
+|root||ettaher|localhost|UPDATE|G
+|root||ferraro|localhost|UPDATE|G
+|root||galbasini|localhost|UPDATE|G
+|root||gazzea|localhost|UPDATE|G
+|root||giani|localhost|UPDATE|G
+|root||kozemko|localhost|UPDATE|G
+|root||laterra|localhost|UPDATE|G
+|root||lattanzi|localhost|UPDATE|G
+|root||lavelli|localhost|UPDATE|G
+|root||linzas|localhost|UPDATE|G
+|root||lodi|localhost|UPDATE|G
+|root||martinetti|localhost|UPDATE|G
+|root||minuzzo|localhost|UPDATE|G
+|root||morga|localhost|UPDATE|G
+|root||mysql|localhost|UPDATE|G
+|root||pacella|localhost|UPDATE|G
+|root||protasio|localhost|UPDATE|G
+|root||ramoni|localhost|UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||rosetta|localhost|UPDATE|G
+|root||sannino|localhost|UPDATE|G
+|root||sassi|localhost|UPDATE|G
+|root||sinacori|localhost|UPDATE|G
+|root||tagini|localhost|UPDATE|G
+|root||tarabella|localhost|UPDATE|G
+|root||tatti|localhost|UPDATE|G
+|root||utentedb|172.22.%.%|UPDATE|G
+|root||vellone|localhost|UPDATE|G
+|root||vidoni|localhost|UPDATE|G
+|root||virgilio|localhost|UPDATE|G
+|root||chiarinotti|172.22.%.%|grant option|G
+|root||mysql|localhost|grant option|G
+|root||root|localhost|grant option|G
+|root||utentedb|172.22.%.%|grant option|G
+phpmyadmin|schema||phpmyadmin|localhost|ALTER|G
+phpmyadmin|schema||phpmyadmin|localhost|ALTER ROUTINE|G
+phpmyadmin|schema||phpmyadmin|localhost|CREATE|G
+phpmyadmin|schema||phpmyadmin|localhost|CREATE ROUTINE|G
+phpmyadmin|schema||phpmyadmin|localhost|CREATE TEMPORARY TABLES|G
+phpmyadmin|schema||phpmyadmin|localhost|CREATE VIEW|G
+phpmyadmin|schema||phpmyadmin|localhost|DELETE|G
+phpmyadmin|schema||phpmyadmin|localhost|DELETE HISTORY|G
+phpmyadmin|schema||phpmyadmin|localhost|DROP|G
+phpmyadmin|schema||phpmyadmin|localhost|EVENT|G
+phpmyadmin|schema||phpmyadmin|localhost|EXECUTE|G
+phpmyadmin|schema||phpmyadmin|localhost|INDEX|G
+phpmyadmin|schema||phpmyadmin|localhost|INSERT|G
+phpmyadmin|schema||phpmyadmin|localhost|LOCK TABLES|G
+phpmyadmin|schema||phpmyadmin|localhost|REFERENCES|G
+phpmyadmin|schema||phpmyadmin|localhost|SELECT|G
+phpmyadmin|schema||phpmyadmin|localhost|SHOW VIEW|G
+phpmyadmin|schema||phpmyadmin|localhost|TRIGGER|G
+phpmyadmin|schema||phpmyadmin|localhost|UPDATE|G</Grants>
+      <ServerVersion>10.6.12</ServerVersion>
+    </root>
+    <collation id="2" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="3" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="4" parent="1" name="armscii8_general_nopad_ci">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="5" parent="1" name="armscii8_nopad_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="6" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="7" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="8" parent="1" name="ascii_general_nopad_ci">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="9" parent="1" name="ascii_nopad_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="10" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="11" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="big5_chinese_nopad_ci">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="13" parent="1" name="big5_nopad_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="14" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="16" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="18" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1250_general_nopad_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="20" parent="1" name="cp1250_nopad_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="21" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="23" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="24" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="26" parent="1" name="cp1251_general_nopad_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="27" parent="1" name="cp1251_nopad_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="28" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="29" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="30" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp1256_general_nopad_ci">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="32" parent="1" name="cp1256_nopad_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="33" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="34" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp1257_general_nopad_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="36" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="37" parent="1" name="cp1257_nopad_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="38" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="39" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="cp850_general_nopad_ci">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="41" parent="1" name="cp850_nopad_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="42" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="43" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="cp852_general_nopad_ci">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="45" parent="1" name="cp852_nopad_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="46" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="47" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="cp866_general_nopad_ci">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="49" parent="1" name="cp866_nopad_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="50" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="51" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="cp932_japanese_nopad_ci">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="53" parent="1" name="cp932_nopad_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="54" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="55" parent="1" name="dec8_nopad_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="56" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="dec8_swedish_nopad_ci">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="58" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="59" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="eucjpms_japanese_nopad_ci">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="61" parent="1" name="eucjpms_nopad_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="62" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="63" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="euckr_korean_nopad_ci">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="65" parent="1" name="euckr_nopad_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="66" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="67" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="gb2312_chinese_nopad_ci">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="69" parent="1" name="gb2312_nopad_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="70" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="71" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="gbk_chinese_nopad_ci">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="73" parent="1" name="gbk_nopad_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="74" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="75" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="geostd8_general_nopad_ci">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="77" parent="1" name="geostd8_nopad_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="78" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="79" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="greek_general_nopad_ci">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="81" parent="1" name="greek_nopad_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="82" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="83" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="hebrew_general_nopad_ci">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="85" parent="1" name="hebrew_nopad_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="86" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="87" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="hp8_english_nopad_ci">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="89" parent="1" name="hp8_nopad_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="90" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="91" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="keybcs2_general_nopad_ci">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="93" parent="1" name="keybcs2_nopad_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="94" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="95" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="koi8r_general_nopad_ci">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="97" parent="1" name="koi8r_nopad_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="98" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="99" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="koi8u_general_nopad_ci">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="101" parent="1" name="koi8u_nopad_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="102" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="103" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="104" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="105" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="106" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="107" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="108" parent="1" name="latin1_nopad_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="109" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="110" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="latin1_swedish_nopad_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="112" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="113" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="114" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="115" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="latin2_general_nopad_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="117" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="118" parent="1" name="latin2_nopad_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="119" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="120" parent="1" name="latin5_nopad_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="121" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="latin5_turkish_nopad_ci">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="123" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="124" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="125" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="127" parent="1" name="latin7_general_nopad_ci">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="128" parent="1" name="latin7_nopad_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="129" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="130" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="macce_general_nopad_ci">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="132" parent="1" name="macce_nopad_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="133" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="134" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="macroman_general_nopad_ci">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="136" parent="1" name="macroman_nopad_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="137" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="138" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="sjis_japanese_nopad_ci">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="140" parent="1" name="sjis_nopad_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="141" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="142" parent="1" name="swe7_nopad_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="143" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="swe7_swedish_nopad_ci">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="145" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="146" parent="1" name="tis620_nopad_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="147" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="tis620_thai_nopad_ci">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="149" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="150" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="151" parent="1" name="ucs2_croatian_mysql561_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="152" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="153" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="154" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="155" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="156" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="158" parent="1" name="ucs2_general_nopad_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="159" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="160" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="161" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="162" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="163" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="164" parent="1" name="ucs2_myanmar_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="165" parent="1" name="ucs2_nopad_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="166" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="167" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="168" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="169" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="170" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="171" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="172" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="173" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="174" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="175" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="176" parent="1" name="ucs2_thai_520_w2">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="177" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="178" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="179" parent="1" name="ucs2_unicode_520_nopad_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="180" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="181" parent="1" name="ucs2_unicode_nopad_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="182" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="183" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="184" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="ujis_japanese_nopad_ci">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="186" parent="1" name="ujis_nopad_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="187" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="188" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="189" parent="1" name="utf16_croatian_mysql561_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="190" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="191" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="192" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="193" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="194" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf16_general_nopad_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="196" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="197" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="198" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="199" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="200" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="201" parent="1" name="utf16_myanmar_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="202" parent="1" name="utf16_nopad_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="203" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="204" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="205" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="206" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="207" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="208" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="209" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="210" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="211" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="212" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="213" parent="1" name="utf16_thai_520_w2">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="214" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="215" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="216" parent="1" name="utf16_unicode_520_nopad_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="217" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="218" parent="1" name="utf16_unicode_nopad_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="219" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="220" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="221" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf16le_general_nopad_ci">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="223" parent="1" name="utf16le_nopad_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="224" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="225" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="226" parent="1" name="utf32_croatian_mysql561_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="227" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="228" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="229" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="230" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="231" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="232" parent="1" name="utf32_general_nopad_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="233" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="234" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="235" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="236" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="237" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="238" parent="1" name="utf32_myanmar_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="239" parent="1" name="utf32_nopad_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="240" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="241" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="242" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="243" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="244" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="245" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="246" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="247" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="248" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="249" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="250" parent="1" name="utf32_thai_520_w2">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="251" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="252" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="253" parent="1" name="utf32_unicode_520_nopad_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="254" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="255" parent="1" name="utf32_unicode_nopad_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="256" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="257" parent="1" name="utf8mb3_bin">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="258" parent="1" name="utf8mb3_croatian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="259" parent="1" name="utf8mb3_croatian_mysql561_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="260" parent="1" name="utf8mb3_czech_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="261" parent="1" name="utf8mb3_danish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="262" parent="1" name="utf8mb3_esperanto_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="263" parent="1" name="utf8mb3_estonian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="264" parent="1" name="utf8mb3_general_ci">
+      <Charset>utf8mb3</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="265" parent="1" name="utf8mb3_general_mysql500_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="266" parent="1" name="utf8mb3_general_nopad_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="267" parent="1" name="utf8mb3_german2_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="268" parent="1" name="utf8mb3_hungarian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="269" parent="1" name="utf8mb3_icelandic_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="270" parent="1" name="utf8mb3_latvian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="271" parent="1" name="utf8mb3_lithuanian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="272" parent="1" name="utf8mb3_myanmar_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="273" parent="1" name="utf8mb3_nopad_bin">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="274" parent="1" name="utf8mb3_persian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="275" parent="1" name="utf8mb3_polish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="276" parent="1" name="utf8mb3_roman_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="277" parent="1" name="utf8mb3_romanian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="278" parent="1" name="utf8mb3_sinhala_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="279" parent="1" name="utf8mb3_slovak_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="280" parent="1" name="utf8mb3_slovenian_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="281" parent="1" name="utf8mb3_spanish2_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="282" parent="1" name="utf8mb3_spanish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="283" parent="1" name="utf8mb3_swedish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="284" parent="1" name="utf8mb3_thai_520_w2">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="285" parent="1" name="utf8mb3_turkish_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="286" parent="1" name="utf8mb3_unicode_520_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="287" parent="1" name="utf8mb3_unicode_520_nopad_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="288" parent="1" name="utf8mb3_unicode_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="289" parent="1" name="utf8mb3_unicode_nopad_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="290" parent="1" name="utf8mb3_vietnamese_ci">
+      <Charset>utf8mb3</Charset>
+    </collation>
+    <collation id="291" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="292" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="293" parent="1" name="utf8mb4_croatian_mysql561_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="294" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="295" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="296" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="297" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="298" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="299" parent="1" name="utf8mb4_general_nopad_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="300" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="301" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="302" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="303" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="304" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="305" parent="1" name="utf8mb4_myanmar_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="306" parent="1" name="utf8mb4_nopad_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="307" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="308" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="309" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="310" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="311" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="312" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="313" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="314" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="315" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="316" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="317" parent="1" name="utf8mb4_thai_520_w2">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="318" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="319" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="320" parent="1" name="utf8mb4_unicode_520_nopad_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="321" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="322" parent="1" name="utf8mb4_unicode_nopad_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="323" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <schema id="324" parent="1" name="Alvarez_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="325" parent="1" name="Azienda">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="326" parent="1" name="Caretti_Magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="327" parent="1" name="Caretti_Progetto">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="328" parent="1" name="Caretti_TPS">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="329" parent="1" name="Castelli_EsercizioConnessione">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="330" parent="1" name="Castelli_Magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="331" parent="1" name="Castelli_NBA">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="332" parent="1" name="Comolli_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="333" parent="1" name="Comolli_Sannino_Tarabella_Paroliere">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="334" parent="1" name="Ettaher_Docs">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="335" parent="1" name="Ettaher_Esercizio">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="336" parent="1" name="Ettaher_Magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="337" parent="1" name="Galbasini_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="338" parent="1" name="Gazzea_progettoinfo">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="339" parent="1" name="Kozemko_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="340" parent="1" name="Lattanzi_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="341" parent="1" name="Linzas_Magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="342" parent="1" name="Linzas_MsgProject">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="343" parent="1" name="Lodi_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="344" parent="1" name="Magazzino_Castiglioni">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="345" parent="1" name="Martinetti_Magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="346" parent="1" name="Martinetti_es_pag345">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="347" parent="1" name="Martinetti_esercizio_1">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="348" parent="1" name="Martinetti_r6">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="349" parent="1" name="Martinetti_tps">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="350" parent="1" name="Minuzzo_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="351" parent="1" name="Pacella_DB">
+      <Current>1</Current>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="352" parent="1" name="Palestra_Bagnati">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="353" parent="1" name="Protasio_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="354" parent="1" name="Sannino_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="355" parent="1" name="Sassi_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="356" parent="1" name="Sinacori_ConnessioneDB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="357" parent="1" name="Sinacori_Esercizio_TPS">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="358" parent="1" name="Sinacori_OneFootball">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="359" parent="1" name="Sinacori_magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="360" parent="1" name="TPS_ACI">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="361" parent="1" name="TPS_STAZIONE">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="362" parent="1" name="TPS_Verifica_Formativa">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="363" parent="1" name="Tagini_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="364" parent="1" name="Tarabella_DB">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="365" parent="1" name="Vellone_FantaF1">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="366" parent="1" name="Vellone_Valutazioni">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="367" parent="1" name="Vellone_magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="368" parent="1" name="Vellone_prova_beans">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="369" parent="1" name="Vidoni_magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="370" parent="1" name="Vidoni_progettoinfo">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="371" parent="1" name="Vidoni_provaconnessione">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="372" parent="1" name="Virgilio_Magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="373" parent="1" name="Virgilio_Pizzeria">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="374" parent="1" name="Virgilio_ValutazioniTPS">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="375" parent="1" name="angelo_db">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="376" parent="1" name="bagnati_magazzino">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="377" parent="1" name="casalini_db">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="378" parent="1" name="information_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="379" parent="1" name="morga_db">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="380" parent="1" name="mysql">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="381" parent="1" name="performance_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="382" parent="1" name="phpmyadmin">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="383" parent="1" name="sys">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="384" parent="1" name="test">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <user id="385" parent="1" name="alvarez">
+      <Host>localhost</Host>
+    </user>
+    <user id="386" parent="1" name="angelo">
+      <Host>localhost</Host>
+    </user>
+    <user id="387" parent="1" name="bagnati">
+      <Host>localhost</Host>
+    </user>
+    <user id="388" parent="1" name="caretti">
+      <Host>localhost</Host>
+    </user>
+    <user id="389" parent="1" name="casalini">
+      <Host>localhost</Host>
+    </user>
+    <user id="390" parent="1" name="cassani">
+      <Host>localhost</Host>
+    </user>
+    <user id="391" parent="1" name="castelli">
+      <Host>localhost</Host>
+    </user>
+    <user id="392" parent="1" name="castiglioni">
+      <Host>localhost</Host>
+    </user>
+    <user id="393" parent="1" name="chiarinotti">
+      <Host>172.22.%.%</Host>
+    </user>
+    <user id="394" parent="1" name="chiarinotti">
+      <Host>localhost</Host>
+    </user>
+    <user id="395" parent="1" name="como">
+      <Host>localhost</Host>
+    </user>
+    <user id="396" parent="1" name="comolli">
+      <Host>localhost</Host>
+    </user>
+    <user id="397" parent="1" name="ettaher">
+      <Host>localhost</Host>
+    </user>
+    <user id="398" parent="1" name="ferraro">
+      <Host>localhost</Host>
+    </user>
+    <user id="399" parent="1" name="galbasini">
+      <Host>localhost</Host>
+    </user>
+    <user id="400" parent="1" name="gazzea">
+      <Host>localhost</Host>
+    </user>
+    <user id="401" parent="1" name="giani">
+      <Host>localhost</Host>
+    </user>
+    <user id="402" parent="1" name="kozemko">
+      <Host>localhost</Host>
+    </user>
+    <user id="403" parent="1" name="laterra">
+      <Host>localhost</Host>
+    </user>
+    <user id="404" parent="1" name="lattanzi">
+      <Host>localhost</Host>
+    </user>
+    <user id="405" parent="1" name="lavelli">
+      <Host>localhost</Host>
+    </user>
+    <user id="406" parent="1" name="linzas">
+      <Host>localhost</Host>
+    </user>
+    <user id="407" parent="1" name="lodi">
+      <Host>localhost</Host>
+    </user>
+    <user id="408" parent="1" name="mariadb.sys">
+      <Host>localhost</Host>
+    </user>
+    <user id="409" parent="1" name="martinetti">
+      <Host>localhost</Host>
+    </user>
+    <user id="410" parent="1" name="minuzzo">
+      <Host>localhost</Host>
+    </user>
+    <user id="411" parent="1" name="morga">
+      <Host>localhost</Host>
+    </user>
+    <user id="412" parent="1" name="mysql">
+      <Host>localhost</Host>
+    </user>
+    <user id="413" parent="1" name="pacella">
+      <Host>localhost</Host>
+    </user>
+    <user id="414" parent="1" name="phpmyadmin">
+      <Host>localhost</Host>
+    </user>
+    <user id="415" parent="1" name="pippo">
+      <Host>localhost</Host>
+    </user>
+    <user id="416" parent="1" name="protasio">
+      <Host>localhost</Host>
+    </user>
+    <user id="417" parent="1" name="ramoni">
+      <Host>localhost</Host>
+    </user>
+    <user id="418" parent="1" name="root">
+      <Host>localhost</Host>
+    </user>
+    <user id="419" parent="1" name="rosetta">
+      <Host>localhost</Host>
+    </user>
+    <user id="420" parent="1" name="sannino">
+      <Host>localhost</Host>
+    </user>
+    <user id="421" parent="1" name="sassi">
+      <Host>localhost</Host>
+    </user>
+    <user id="422" parent="1" name="sinacori">
+      <Host>localhost</Host>
+    </user>
+    <user id="423" parent="1" name="tagini">
+      <Host>localhost</Host>
+    </user>
+    <user id="424" parent="1" name="tarabella">
+      <Host>localhost</Host>
+    </user>
+    <user id="425" parent="1" name="tatti">
+      <Host>localhost</Host>
+    </user>
+    <user id="426" parent="1" name="utentedb">
+      <Host>172.22.%.%</Host>
+    </user>
+    <user id="427" parent="1" name="vellone">
+      <Host>localhost</Host>
+    </user>
+    <user id="428" parent="1" name="vidoni">
+      <Host>localhost</Host>
+    </user>
+    <user id="429" parent="1" name="virgilio">
+      <Host>localhost</Host>
+    </user>
+    <table id="430" parent="351" name="anagrafiche">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="431" parent="351" name="paroledizionariogpo">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="432" parent="351" name="partitagpo">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="433" parent="351" name="utenti">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="434" parent="351" name="valtps">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <column id="435" parent="430" name="CodiceFiscale">
+      <DasType>char(16)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="436" parent="430" name="Nome">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="437" parent="430" name="Cognome">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="438" parent="430" name="DataNascita">
+      <DasType>date|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="439" parent="430" name="PRIMARY">
+      <ColNames>CodiceFiscale</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="440" parent="430" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="441" parent="431" name="Parole">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <index id="442" parent="431" name="PRIMARY">
+      <ColNames>Parole</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="443" parent="431" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="444" parent="432" name="ID">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="445" parent="432" name="punteggio">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="446" parent="432" name="paroleTrovate">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="447" parent="432" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="448" parent="432" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="449" parent="433" name="ID">
+      <AutoIncrement>12</AutoIncrement>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="450" parent="433" name="Username">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="451" parent="433" name="Psw">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="452" parent="433" name="CFAnagrafica">
+      <DasType>varchar(16)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="453" parent="433" name="Ruolo">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="454" parent="433" name="v_Anagrafica">
+      <ColNames>CFAnagrafica</ColNames>
+      <RefColNames>CodiceFiscale</RefColNames>
+      <RefTableName>anagrafiche</RefTableName>
+    </foreign-key>
+    <index id="455" parent="433" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="456" parent="433" name="v_Anagrafica">
+      <ColNames>CFAnagrafica</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="457" parent="433" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="458" parent="434" name="ID">
+      <AutoIncrement>13</AutoIncrement>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="459" parent="434" name="IDUtente">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="460" parent="434" name="Voto">
+      <DasType>int(3)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="461" parent="434" name="Materia">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="462" parent="434" name="v_IdUtente">
+      <ColNames>IDUtente</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>ID</RefColNames>
+      <RefTableName>utenti</RefTableName>
+    </foreign-key>
+    <index id="463" parent="434" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="464" parent="434" name="v_IdUtente">
+      <ColNames>IDUtente</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="465" parent="434" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
